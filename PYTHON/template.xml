@@ -1,0 +1,2933 @@
+<!DOCTYPE html>
+<!--[if lte IE 9]> <html class="ie9" b:version='2' xmlns='http://www.w3.org/1999/xhtml' xmlns:b='http://www.google.com/2005/gml/b' xmlns:data='http://www.google.com/2005/gml/data' xmlns:expr='http://www.google.com/2005/gml/expr'> <![endif]--><!--[if gt IE 9]><!--><html xmlns='http://www.w3.org/1999/xhtml' xmlns:b='http://www.google.com/2005/gml/b' xmlns:data='http://www.google.com/2005/gml/data' xmlns:expr='http://www.google.com/2005/gml/expr'>
+<!--<![endif]-->  
+  <head>
+    <meta charset='utf-8'/>
+<meta content='width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0' name='viewport'/>
+<meta content='IE=Edge' http-equiv='X-UA-Compatible'/>
+<meta content='text/html; charset=UTF-8' http-equiv='Content-Type'/>
+<meta content='blogger' name='generator'/>
+<link href='https://kronosmond-ozmondstudio.blogspot.co.id/favicon.ico' rel='icon' type='image/x-icon'/>
+<link href='http://kronosmond-ozmondstudio.blogspot.com/' rel='canonical'/>
+<link rel="alternate" type="application/atom+xml" title="Kronos - Atom" href="https://kronosmond-ozmondstudio.blogspot.com/feeds/posts/default" />
+<link rel="alternate" type="application/rss+xml" title="Kronos - RSS" href="https://kronosmond-ozmondstudio.blogspot.com/feeds/posts/default?alt=rss" />
+<link rel="service.post" type="application/atom+xml" title="Kronos - Atom" href="https://www.blogger.com/feeds/4235966419721239060/posts/default" />
+<link rel="me" href="https://www.blogger.com/profile/02847262236109855290" />
+<link rel="openid.server" href="https://www.blogger.com/openid-server.g" />
+<link rel="openid.delegate" href="https://kronosmond-ozmondstudio.blogspot.com/" />
+<!--[if IE]><script type="text/javascript" src="https://www.blogger.com/static/v1/jsbin/3061962209-ieretrofit.js"></script>
+<![endif]-->
+<meta content='The ultimate portofolio/resume Blogger theme.' name='description'/>
+<meta content='http://kronosmond-ozmondstudio.blogspot.com/' property='og:url'/>
+<meta content='Kronos' property='og:title'/>
+<meta content='The ultimate portofolio/resume Blogger theme.' property='og:description'/>
+<!--[if IE]> <script> (function() { var html5 = ("abbr,article,aside,audio,canvas,datalist,details," + "figure,footer,header,hgroup,mark,menu,meter,nav,output," + "progress,section,time,video").split(','); for (var i = 0; i < html5.length; i++) { document.createElement(html5[i]); } try { document.execCommand('BackgroundImageCache', false, true); } catch(e) {} })(); </script> <![endif]-->
+<title>
+Kronos</title>
+<style id='page-skin-1' type='text/css'><!--
+/*
+-----------------------------------------------
+Blogger Template Style
+Name:     Kronosmond
+Designer: Muhammad Osmond
+----------------------------------------------- */
+/* Variable definitions
+<Group description="Loader" selector="#preloader">
+<Variable name="loader.background.color" description="Background Color" type="color" default="#000000"/>
+<Variable name="loader.icon.color" description="Icon Color" type="color" default="#FFFFFF"/>
+</Group>
+<Group description="Background Colors" selector="body">
+<Variable name="body.background.color" description="Outer Background Color" type="color" default="#000000"/>
+<Variable name="main.bg.color" description="Main Background Color" type="color" default="#000000"/>
+<Variable name="menu.bg.color" description="Menu Background Color" type="color" default="#ffffff"/>
+<Variable name="comment.background.color" description="Comment Background Color" type="color" default="#444444"/>
+</Group>
+<Group description="Global Font and Color" selector="body">
+<Variable name="global.font" description="Font" type="font"
+default="normal 300 18px/1.5em 'Open Sans', sans-serif"/>
+<Variable name="global.text.color" description="Text Color" type="color"
+default="#ffffff"/>
+</Group>
+<Group description="Links" selector="a">
+<Variable name="link.color" description="Link Color" type="color" default="#ffffff"/>
+<Variable name="link.visited.color" description="Visited Color" type="color" default="#ffffff"/>
+<Variable name="link.hover.color" description="Hover Color" type="color" default="#efefef"/>
+</Group>
+<Group description="Content Links" selector="#main">
+<Variable name="content.link.color" description="Content Link Color" type="color" default="#222222"/>
+<Variable name="content.link.visited.color" description="Content Link Visited Color" type="color" default="#e0e0e0"/>
+<Variable name="content.link.hover.color" description="Content Link Hover Color" type="color" default="#666666"/>
+</Group>
+<Group description="Menu" selector="#PageList1">
+<Variable name="menu.font" description="Font" type="font"
+default="normal 300 15px/1.25em 'Open Sans',sans-serif"/>
+<Variable name="menu.text.color" description="Text Color" type="color" default="#222222" />
+</Group>
+<Group description="404 Content" selector=".error-wrapper">
+<Variable name="error.text.color" description="Text Color" type="color"
+default="#efefef"/>
+<Variable name="error.font.primary" description="Primary Font" type="font"
+default="normal normal 16px/1.5em 'Roboto Slab',serif"/>
+<Variable name="error.font.secondary" description="Secondary Font" type="font"
+default="normal 400 34px/1.5em 'Open Sans',sans-serif"/>
+</Group>
+<Group description="Blog Title" selector=".header h1">
+<Variable name="header.font" description="Font" type="font"
+default="normal 700 24px/1.05em 'Open Sans',sans-serif"/>
+<Variable name="header.text.color" description="Text Color" type="color" default="#ffffff" />
+</Group>
+<Group description="Blog Description" selector=".header .description">
+<Variable name="description.font" description="Font" type="font"
+default="normal 400 14px/1.25em 'Open Sans',sans-serif"/>
+<Variable name="description.text.color" description="Description Color" type="color" default="#f0f0f0"/>
+</Group>
+<Group description="Intro" selector="#HTML1">
+<Variable name="intro.font" description="Font" type="font"
+default="normal 300 56px/1.25em 'Open Sans',sans-serif"/>
+<Variable name="intro.text.color" description="Text Color" type="color" default="#ffffff" />
+</Group>
+<Group description="Date Header" selector="h2.date-header">
+<Variable name="date.font" description="Font" type="font"
+default="normal 400 14px/1.2em 'Roboto Slab', serif"/>
+<Variable name="date.text.color" description="Text Color" type="color" default="#ffffff"/>
+</Group>
+<Group description="Post Title" selector="h3.entry-title, .post-title">
+<Variable name="post.title.font" description="Font" type="font"
+default="normal 700 32px/1em 'Open Sans',serif"/>
+<Variable name="post.title.text.color" description="Text Color" type="color"
+default="#ffffff"/>
+</Group>
+<Group description="Post" selector=".post">
+<Variable name="post.font" description="Font" type="font"
+default="normal 300 18px/1.5em 'Open Sans', sans-serif"/>
+<Variable name="post.text.color" description="Text Color" type="color"
+default="#e0e0e0"/>
+</Group>
+<Group description="Post Headings" selector=".post h1,.post h2,.post h3,.post h4,.post h5,.post h6">
+<Variable name="post.heading.font" description="Font" type="font"
+default="normal 400 20px/1.25em 'Roboto Slab', serif"/>
+<Variable name="post.heading.text.color" description="Text Color" type="color"
+default="#ffffff"/>
+</Group>
+<Group description="Blockquote" selector="blockquote">
+<Variable name="blockquote.background.color" description="Background Color" type="color"
+default="#444444"/>
+<Variable name="blockquote.font" description="Font" type="font"
+default="normal 400 24px/1.5em 'Roboto Slab', serif"/>
+<Variable name="blockquote.text.color" description="Text Color" type="color"
+default="#ffffff"/>
+</Group>
+<Group description="Resume Timeline" selector=".resume-list">
+<Variable name="resume.text.color" description="Text Color" type="color"
+default="#efefef"/>
+<Variable name="resume.timeline.panel.color" description="Panel Color" type="color"
+default="#444444"/>
+<Variable name="resume.font.primary" description="Secondary Font" type="font"
+default="normal 400 16px/1.4em 'Open Sans',sans-serif"/>
+<Variable name="resume.font.secondary" description="Primary Font" type="font"
+default="normal normal 24px/1.5em 'Roboto Slab',serif"/>
+</Group>
+<Group description="About Me" selector="#about-me">
+<Variable name="profile.font" description="Font" type="font"
+default="normal 300 20px/1.05em 'Open Sans',sans-serif"/>
+<Variable name="profile.text.color" description="Text Color" type="color" default="#ffffff"/>
+<Variable name="profile.bg.color" description="Background Color" type="color" default="#444444"/>
+<Variable name="skill.bar.color" description="Skill Bars Color" type="color" default="#0bea00"/>
+</Group>
+<Group description="Contact" selector="#contact">
+<Variable name="contact.font" description="Font" type="font"
+default="normal 300 20px/1.05em 'Open Sans',sans-serif"/>
+<Variable name="contact.text.color" description="Text Color" type="color" default="#ffffff"/>
+<Variable name="contact.bg.color" description="Background Color" type="color" default="#444444"/>
+<Variable name="contact.field.color" description="Contact Form Field Background Color" type="color" default="#151515"/>
+</Group>
+<Group description="Gadget Title" selector="#footer-wrapper .widget h2">
+<Variable name="widget.title.font" description="Font" type="font"
+default="normal 400 18px 'Roboto Slab',sans-serif"/>
+<Variable name="widget.title.text.color" description="Title Color" type="color" default="#ffffff"/>
+</Group>
+<Group description="Gadget Text" selector=".footer-inner .widget, .sidebar .widget">
+<Variable name="widget.font" description="Font" type="font"
+default="normal 300 14px 'Open Sans',sans-serif"/>
+<Variable name="widget.text.color" description="Text Color" type="color" default="#e0e0e0"/>
+</Group>
+<Group description="Comment" selector="#comments">
+<Variable name="comment.font.primary" description="Primary Font" type="font"
+default="normal 400 14px/1.5em 'Roboto Slab',serif"/>
+<Variable name="comment.font.secondary" description="Secondary Font" type="font"
+default="normal 300 20px/1.5em 'Open Sans',sans-serif"/>
+<Variable name="comment.text.color" description="Text Color" type="color"
+default="#000000"/>
+</Group>
+<Group description="Navigation" selector="#blog-pager">
+<Variable name="nav.font" description="Font" type="font"
+default="normal 800 20px/1.5em 'Open Sans',sans-serif"/>
+<Variable name="nav.bg.color" description="Background Color" type="color"
+default="#000000"/>
+</Group>
+<Variable name="body.background" description="Body Background" type="background"
+color="#000000" default="$(color) url(https://lh3.googleusercontent.com/-hDJjNiDGNKg/V2EFZ9A0MCI/AAAAAAAABZs/jAk6l2-IV60z5PbPIs2ASOgom_j_IKW9QCCo/s1600-fcrop64=1,004b0000ffb3ffff:Soften=1,25,0/boy-1275645.jpg) no-repeat fixed center center"/>
+<Variable name="content.imageBorder.top.space" description="Content Image Border Top Space" type="length" default="0" min="0" max="100px"/>
+<Variable name="content.imageBorder.top" description="Content Image Border Top" type="url" default="none"/>
+<Variable name="mobile.background.overlay" description="Mobile Background Overlay" type="string"
+default="transparent none no-repeat fixed top center"/>
+<Variable name="mobile.button.color" description="Mobile Button Color" type="color" default="#ffffff" />
+<Variable name="startSide" description="Side where text starts in blog language" type="automatic" default="left"/>
+<Variable name="endSide" description="Side where text ends in blog language" type="automatic" default="right"/>
+*/
+/*------------------------------------------------------
+Reset CSS
+------------------------------------------------------*/
+/* http://meyerweb.com/eric/tools/css/reset/ */
+/* v1.0 | 20080212 */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre, a,
+abbr, acronym, address, big, cite, code, del,
+dfn, em, font, img, ins, kbd, q, s, samp, small,
+strike, strong, sub, sup, tt, var, b, u, i,
+center, dl, dt, dd, ol, ul, li, fieldset, form,
+label, legend, .widget, table, caption, tbody,
+tfoot, thead, tr, th, td, .section {
+margin:0;
+padding:0;
+border:0;
+outline:0;
+font-size:100%;
+vertical-align:baseline;
+background:transparent;
+}
+.section {
+margin:0 !important;
+}
+#layout .section {
+margin:10px !important;
+}
+/* Hidden Elements
+----------------------------------------------- */
+#navbar, .mobile-desktop-link, .snippet, .post-icons, .blog-mobile-link, .hide, .hidden, .blog-feeds, .post-feeds, .comments .comment .continue a, .comment-footer, #comments .continue, .comment-replies:empty, .blog-mobile-link, .pagelist-arrow, .status-msg-border, .mobile-index-comment, .post-footer .post-comment-link, .comment-replybox-thread:empty, .kr-section .widget > h2, .mobile .goog-inline-block.dummy-container {display:none !important;}
+/* Content
+----------------------------------------------- */
+html {
+overflow-x: hidden;
+}
+body {
+background: #000000 url(https://lh3.googleusercontent.com/-hDJjNiDGNKg/V2EFZ9A0MCI/AAAAAAAABZs/jAk6l2-IV60z5PbPIs2ASOgom_j_IKW9QCCo/s1600-fcrop64=1,004b0000ffb3ffff:Soften=1,25,0/boy-1275645.jpg) no-repeat fixed center center;
+font: normal 300 18px/1.5em 'Open Sans', sans-serif;
+color: #ffffff;
+}
+a:link {
+text-decoration:none;
+color: #ffffff;
+}
+a:visited {
+text-decoration:none;
+color: #ffffff;
+}
+a:hover {
+text-decoration:none;
+color: #efefef;
+}
+.main a:link {
+text-decoration:none;
+color: #222222;
+}
+.main a:visited {
+text-decoration:none;
+color: #e0e0e0;
+}
+.main a:hover {
+text-decoration:underline;
+color: #666666;
+}
+.main-inner .date-outer {
+margin-bottom: 2em;
+}
+/* Headings
+----------------------------------------------- */
+h1, h2, h3, h4, h5, h6 {
+color: #ffffff;
+font: normal 400 20px/1.25em 'Roboto Slab', serif;
+}
+.post-body h1 {font-size:30px;margin:0.67em 0;}
+.post-body h2 {font-size:28px;margin:0.83em 0;}
+.post-body h3 {font-size:25px;margin:1em 0;}
+.post-body h4 {font-size:20px;margin:1.33em 0;}
+.post-body h5 {font-size:16px;margin:1.67em 0;}
+.post-body h6 {font-size:12px;margin:2.33em 0;}
+h2.date-header{
+font: normal 400 14px/1.2em 'Roboto Slab', serif;
+color: #ffffff;
+padding:0 25px;
+margin:25px auto 30px;
+text-align:center;
+}
+.date-header .fa {
+margin-right:5px;
+}
+.footer-inner .widget h2,
+.sidebar .widget h2 {
+padding-bottom: .5em;
+}
+/* Preloader
+----------------------------------------------- */
+#preloader {
+background-color:#000000;
+color:#FFFFFF;
+display:none;
+position:fixed;
+left:0px;
+top:0px;
+width:100%;
+height:100%;
+z-index:9999;
+}
+#preloader.js {
+display:block;
+}
+#preloader .icon {
+position:fixed;
+left:0;
+right:0;
+text-align:center;
+top:50%;
+margin-top:-40px;
+}
+#preloader .icon:before {
+content:'\f1ce';
+font:normal normal normal 14px/1 FontAwesome;
+font-size:5em;
+text-rendering:auto;
+-webkit-font-smoothing:antialiased;
+-moz-osx-font-smoothing:grayscale;
+transform:translate(0, 0);
+margin:0 auto;
+}
+.fa-spin{-webkit-animation:fa-spin 2s infinite linear;animation:fa-spin 2s infinite linear}
+@-webkit-keyframes fa-spin{
+0%{
+-webkit-transform:rotate(0deg);
+transform:rotate(0deg)
+}
+100%{
+-webkit-transform:rotate(359deg);
+transform:rotate(359deg)
+}
+}
+@keyframes fa-spin{
+0%{
+-webkit-transform:rotate(0deg);
+transform:rotate(0deg)
+}
+100%{
+-webkit-transform:rotate(359deg);
+transform:rotate(359deg)
+}
+}
+/* Hamburger Menu
+----------------------------------------------- */
+.c-hamburger {
+display: block;
+position: fixed;
+z-index: 5;
+top: 0;
+right: 0;
+overflow: hidden;
+margin: 40px;
+padding: 0;
+width: 50px;
+height: 50px;
+font-size: 0;
+text-indent: -9999px;
+appearance: none;
+box-shadow: none;
+-webkit-border-radius: 100%;
+border-radius: 100%;
+border: none;
+cursor: pointer;
+background: #ffffff;
+-webkit-box-shadow: 0 3px 3px 1px rgba(0,0,0,.35);
+box-shadow: 0 3px 3px 1px rgba(0,0,0,.35);
+transition: all 0s 0.3s;
+}
+.c-hamburger:focus {
+outline: none;
+}
+.c-hamburger span {
+display: block;
+position: absolute;
+top: 24px;
+left: 15px;
+right: 15px;
+height: 2px;
+background: #222222;
+}
+.c-hamburger span::before,
+.c-hamburger span::after {
+position: absolute;
+display: block;
+left: 0;
+width: 100%;
+height: 2px;
+background-color: #222222;
+content: "";
+}
+.c-hamburger span::before {
+top: -7px;
+}
+.c-hamburger span::after {
+bottom: -7px;
+}
+.c-hamburger--htx span {
+transition: background 0s 0.3s;
+}
+.c-hamburger--htx span::before,
+.c-hamburger--htx span::after {
+transition-duration: 0.3s, 0.3s;
+transition-delay: 0.3s, 0s;
+}
+.c-hamburger--htx span::before {
+transition-property: top, transform;
+}
+.c-hamburger--htx span::after {
+transition-property: bottom, transform;
+}
+/* active state, i.e. menu open */
+.c-hamburger--htx.is-active {
+-webkit-box-shadow: none;
+box-shadow: none;
+}
+.c-hamburger--htx.is-active span {
+background: none;
+}
+.c-hamburger--htx.is-active span::before {
+top: 0;
+transform: rotate(45deg);
+}
+.c-hamburger--htx.is-active span::after {
+bottom: 0;
+transform: rotate(-45deg);
+}
+.c-hamburger--htx.is-active span::before,
+.c-hamburger--htx.is-active span::after {
+transition-delay: 0s, 0.3s;
+}
+/* Menu
+----------------------------------------------- */
+#PageList1 {
+position:fixed;
+z-index:4;
+top:0;
+right:0;
+margin:25px;
+padding:20px 25px;
+background-color: #ffffff;
+color: #222222;
+font: normal 300 15px/1.25em 'Open Sans',sans-serif;
+min-width:260px;
+display:none;
+-webkit-box-shadow: 0 5px 15px 0 rgba(0,0,0,.5);
+box-shadow: 0 5px 15px 0 rgba(0,0,0,.5);
+}
+#PageList1 a {
+color: #222222;
+}
+#PageList1 h2 {
+display: block !important;
+font-size: 30px;
+color: #222222;
+text-align: left;
+}
+#PageList1 li {
+list-style-type: none;
+padding: 15px 0 0;
+}
+#PageList1 li.separator {
+display: block;
+padding: 20px 0 0;
+margin-bottom: 5px;
+height: 0;
+border-bottom: 1px solid;
+opacity: 0.5;
+}
+#PageList1 li a.current {
+font-weight: 600;
+}
+#PageList1 select {
+padding: 10px;
+margin-top: 20px;
+outline: none;
+display: block;
+width: 100%;
+}
+/* 1. Header
+----------------------------------------------- */
+#header-wrapper {
+position: relative;
+display: table;
+text-align: center;
+-webkit-transition: height 500ms ease;
+-moz-transition: height 500ms ease;
+-ms-transition: height 500ms ease;
+-o-transition: height 500ms ease;
+transition: height 500ms ease;
+background-color: rgba(0,0,0,0.35);
+width:100%;
+}
+#header {
+display: table-cell;
+vertical-align: middle;
+padding: 50px 100px;
+}
+#header-inner {
+background-position: center !important;
+}
+#Header1 {
+margin: 0 0 25px;
+}
+.Header h1 {
+font: normal 700 24px/1.05em 'Open Sans',sans-serif;
+color: #ffffff;
+text-transform: uppercase;
+margin: 0 0 5px;
+}
+.Header img {
+margin:0 auto;
+}
+.Header h1 a, .Header h1 a:hover, .Header h1 a:visited {
+color: #ffffff;
+}
+.Header .description {
+font: normal 400 14px/1.25em 'Open Sans',sans-serif;
+color: #f0f0f0;
+}
+#HTML1 h3.intro {
+color: #ffffff;
+font: normal 300 56px/1.25em 'Open Sans',sans-serif;
+margin: 0.75em 0;
+}
+#HTML1 p.continue {
+color: #ffffff;
+font: normal 300 56px/1.25em 'Open Sans',sans-serif;
+font-size: 24px;
+margin-bottom: 2.5em;
+}
+p.continue .underline {
+text-decoration: underline;
+}
+#view-more {
+position: absolute;
+bottom: 25px;
+left: 0;
+display: block;
+width: 100%;
+text-align: center;
+}
+.mobile h1.title {
+font-size: 30px !important;
+}
+.mobile #view-more .fa-4x {
+font-size: 2.75em;
+}
+/* Custom Section
+----------------------------------------------- */
+.custom-section {
+background-color: rgba(0,0,0,.5);
+}
+.custom-section .widget {
+margin:0;
+font: normal 300 18px/1.5em 'Open Sans', sans-serif;
+color: #ffffff;
+font-size: 24px;
+text-align: center;
+}
+.custom-section .Text {
+padding: 50px;
+}
+.custom-section .widget > h2 {
+display: none;
+}
+/* Google Maps */
+.custom-section .widget-content > div:not(.story), .custom-section #gmap_canvas {
+width: 100% !important;
+}
+.custom-section #gmap_canvas {
+color: black;
+}
+/* Story */
+.custom-section .story {
+margin: 0 auto;
+max-width: 720px;
+font-weight: 300;
+padding: 50px;
+}
+/* 3. Main
+----------------------------------------------- */
+#main-wrapper {
+padding:0;
+margin:0 auto;
+background-color: rgba(0,0,0,0.35);
+}
+#main {
+padding:0;
+margin:0 !important;
+}
+.widget.Blog {
+margin-top:0;
+margin-bottom:0;
+}
+.main .Blog a:hover {
+text-decoration:none;
+}
+/* 4. About Me
+----------------------------------------------- */
+#about-me {
+font: normal 300 20px/1.05em 'Open Sans',sans-serif;
+color: #ffffff;
+background-color: #444444;
+}
+#about-me:after {
+content: '';
+display: block;
+clear: both;
+}
+#about-me .widget {
+width: 50%;
+padding: 50px;
+-moz-box-sizing: border-box;
+-webkit-box-sizing: border-box;
+box-sizing: border-box;
+}
+#about-me .widget > h2 {
+display: block !important;
+text-align: center;
+margin: 0 0 25px;
+color: #ffffff;
+}
+#HTML2 {
+float: left;
+}
+#HTML2 ul {
+padding: 0;
+}
+#HTML2 li {
+list-style-type: none;
+padding: 0;
+}
+#HTML2 .bar {
+margin: 10px 0 20px;
+width: 100%;
+height: 20px;
+-webkit-border-radius: 20px;
+border-radius: 20px;
+background-color: #000000;
+position: relative;
+overflow: hidden;
+}
+#HTML2 .fill {
+width: 0;
+background-color: #0bea00;
+height: 20px;
+-webkit-border-radius: 20px;
+border-radius: 20px;
+-webkit-transition: width 1s ease;
+-moz-transition: width 1s ease;
+-ms-transition: width 1s ease;
+-o-transition: width 1s ease;
+transition: width 1s ease;
+}
+#HTML2 .strength {
+position: absolute;
+top: 0;
+width: 100%;
+padding: 3px 0;
+text-align: center;
+font-size: 14px;
+line-height: 1;
+font-weight: 700;
+color: #000000;
+}
+#Profile1 {
+float: right;
+margin-bottom: 0;
+}
+.Profile .widget-content {
+text-align:center;
+padding-top:10px;
+}
+.Profile .widget-content img {
+float:none;
+display:block;
+margin:0 auto 10px;
+width:128px;
+height:128px;
+-webkit-border-radius:3px;
+border-radius:3px;
+}
+.Profile .profile-name-link, .Profile .profile-data {
+background:none !important;
+padding-left:0;
+font-size:48px;
+font-weight:300;
+}
+.Profile .profile-textblock {
+font-size:16px;
+line-height:1.25em;
+margin-top:5px;
+}
+.Profile .profile-link {
+display: block;
+margin-top: 20px;
+font-weight: 700;
+font-size: 14px;
+text-transform: uppercase;
+text-align: center;
+}
+/* 5. Contact
+----------------------------------------------- */
+#contact {
+font: normal 300 20px/1.05em 'Open Sans',sans-serif;
+color: #ffffff;
+background-color: #444444;
+}
+.mobile #contact {
+display: none;
+}
+#contact:after {
+content: '';
+display: block;
+clear: both;
+}
+#contact .widget {
+width: 50%;
+margin: 0;
+padding: 50px;
+-moz-box-sizing: border-box;
+-webkit-box-sizing: border-box;
+box-sizing: border-box;
+}
+#contact .widget > h2 {
+display: block !important;
+text-align: center;
+margin: 0 0 25px;
+color: #ffffff;
+}
+#ContactForm1 {
+float: left;
+}
+#Text2 {
+float: right;
+}
+/* Things I Do
+----------------------------------------------- */
+#things-i-do ul {
+padding: 0;
+}
+#things-i-do li {
+list-style-type: none;
+padding: 50px;
+float: left;
+width: 33.3%;
+-moz-box-sizing: border-box;
+-webkit-box-sizing: border-box;
+box-sizing: border-box;
+}
+#things-i-do .fa {
+font-size: 2em;
+border: 2px solid;
+padding: 50px;
+-webkit-border-radius: 100%;
+border-radius: 100%;
+}
+#things-i-do h3 {
+margin: 20px 0;
+}
+#things-i-do p.things-description {
+font-size: 16px;
+}
+/* Timeline
+----------------------------------------------- */
+.widget ul.resume-list {
+padding: 0;
+position: relative;
+color: #efefef;
+}
+.widget ul.resume-list:before {
+content: '';
+display: block;
+width: 0;
+top: 50px;
+bottom: 50px;
+position: absolute;
+border: 2px solid;
+left: 50%;
+margin-left: -2px;
+border-radius: 2px;
+opacity: 0.5;
+}
+.widget ul.resume-list:after {
+content: '';
+display: block;
+clear: both;
+}
+.widget .resume-list li {
+padding: 50px;
+box-sizing: border-box;
+list-style-type: none;
+clear: both;
+width: 50%;
+position: relative;
+margin-top: -90px;
+margin-bottom: -90px;
+}
+.widget .resume-list .resume-wrapper {
+padding: 50px;
+background: #444444;
+-webkit-border-radius: 10px;
+border-radius: 10px;
+margin: 0;
+}
+.widget .resume-list li:first-child {
+margin-top: 0;
+}
+.widget .resume-list li:last-child {
+margin-bottom: 0;
+}
+.widget .resume-list li:nth-child(even) {
+text-align: left;
+float: right;
+}
+.widget .resume-list li:nth-child(odd) {
+text-align: right;
+float: left;
+}
+.widget .resume-list li:before {
+content: '';
+display: block;
+width: 20px;
+height: 20px;
+position: absolute;
+top: 50%;
+margin-top: -10px;
+background: white;
+-webkit-border-radius: 100%;
+border-radius: 100%;
+}
+.widget .resume-list li:nth-child(odd):before {
+right: 0;
+margin-right: -10px;
+}
+.widget .resume-list li:nth-child(even):before {
+left: 0;
+margin-left: -10px;
+}
+.widget .resume-list h3 {
+margin-bottom: 15px;
+color: #efefef;
+}
+.widget .resume-list h3 span {
+display: block;
+}
+.widget .resume-list .timeline-title {
+font: normal normal 24px/1.5em 'Roboto Slab',serif;
+font-size: 26px;
+color: #efefef;
+}
+.widget .resume-list .year {
+font: normal 400 16px/1.4em 'Open Sans',sans-serif;
+font-weight: 300;
+opacity: 0.5;
+color: #efefef;
+}
+.widget .resume-list .workplace-position span {
+display: block;
+}
+.widget .resume-list .workplace {
+font-weight: 600;
+}
+.widget .resume-list .position {
+font-size: 16px;
+}
+.widget .resume-list .description {
+margin-top: 15px;
+line-height: 1.4em;
+font: normal 400 16px/1.4em 'Open Sans',sans-serif;
+font-size: 16px;
+}
+/* 404 Error
+----------------------------------------------- */
+div.status-msg-wrap {
+margin:0;
+padding:50px;
+width:100% !important;
+-moz-box-sizing:border-box;
+-webkit-box-sizing:border-box;
+box-sizing:border-box;
+background-color: #000000;
+}
+.error-wrapper a:link {
+text-decoration:none;
+color: #ffffff;
+}
+.error-wrapper a:visited {
+text-decoration:none;
+color: #ffffff;
+}
+.error-wrapper a:hover {
+text-decoration:none;
+color: #efefef;
+}
+.error-wrapper h2, .error-wrapper h3 {
+color: #efefef;
+}
+.status-msg-body {
+padding:0;
+position:relative !important;
+z-index:1;
+}
+.error-wrapper {
+font: normal normal 16px/1.5em 'Roboto Slab',serif;
+color: #efefef;
+text-align:left;
+overflow:hidden;
+max-width: 720px;
+margin:0 auto;
+position: relative;
+}
+.error-header {
+margin:0;
+float:none;
+display:inline-block;
+}
+.error-header span {
+margin-right:10px;
+}
+.error-title {
+font: normal 400 34px/1.5em 'Open Sans',sans-serif;
+}
+.error-title .fa {
+font-size:2.5em;
+margin-right:15px;
+float:left;
+}
+.error-title .oops {
+display:inline-block;
+margin:0;
+}
+.error-content, .error-wrapper .searchform {
+margin-top:20px;
+}
+.status-msg-wrap a {
+padding:0 !important;
+}
+.bg-icon {
+position:absolute;
+top:0;
+right:0;
+font-size:300px;
+opacity:0.25;
+z-index:-1;
+}
+/* Posts
+----------------------------------------------- */
+.blog-posts {
+background-color: #000000;
+-moz-box-sizing:border-box;
+-webkit-box-sizing:border-box;
+box-sizing:border-box;
+}
+.blog-posts:after {
+content:'';
+display:block;
+clear:both;
+}
+.post-outer {
+margin:0;
+position:relative;
+}
+.post {
+padding:0;
+position:relative;
+z-index:1;
+}
+.cover {
+position:absolute;
+width:100%;
+height:100%;
+background-size:cover;
+background-position:center;
+}
+.cover .floater {
+-webkit-transform-style:preserve-3d;
+-moz-transform-style:preserve-3d;
+transform-style:preserve-3d;
+position:absolute;
+z-index:2;
+width:100%;
+height:100%;
+background-color:rgba(0,0,0,0.5);
+-moz-box-sizing:border-box;
+-webkit-box-sizing:border-box;
+box-sizing:border-box;
+}
+.cover .overlay {
+position:absolute;
+z-index:3;
+width:100%;
+top:50%;
+-moz-transform:translate(0, -50%);
+-webkit-transform:translate(0, -50%);
+-o-transform:translate(0, -50%);
+-ms-transform:translate(0, -50%);
+transform:translate(0, -50%);
+text-align:center;
+padding:50px;
+-moz-box-sizing:border-box;
+-webkit-box-sizing:border-box;
+box-sizing:border-box;
+}
+.cover .blur {
+position:absolute;
+z-index:1;
+height:100%;
+width:100%;
+background-size:cover;
+background-position:center;
+}
+div.cover a:link {
+color: #ffffff;
+}
+div.cover a:visited {
+color: #ffffff;
+}
+div.cover a:hover {
+color: #efefef;
+text-decoration:none;
+}
+.content {
+padding:50px;
+background: #000000;
+}
+.content .author-pic-container {
+width:73px;
+height:73px;
+border:3px solid #000000;
+-webkit-border-radius:100px;
+border-radius:100px;
+top:0;
+left:50%;
+margin:-38px 0 0 -38px;
+position:absolute;
+}
+.content .author-pic-container img {
+width:73px;
+height:73px;
+-webkit-border-radius:100px;
+border-radius:100px;
+}
+.post-title, .entry-title {
+font: normal 700 32px/1em 'Open Sans',serif;
+color: #ffffff;
+text-transform: uppercase;
+}
+div.post-body {
+max-width:720px;
+padding:0;
+margin:0 auto;
+font: normal 300 18px/1.5em 'Open Sans', sans-serif;
+position:relative;
+color: #e0e0e0;
+}
+.post-footer {
+display: none;
+}
+div.post-footer, div.post-share, .rm-container {
+max-width:720px;
+margin:40px auto 0;
+text-align:center;
+}
+.post-body b {
+font-weight:600;
+}
+#main-wrapper .post-body ol, #main-wrapper .post-body ul {
+padding:0 0 0 1.5em;
+margin:1.4em 0;
+}
+.post-body a {margin:0 !important;}
+.post .video-container {
+position:relative;
+padding-bottom:56.25%;
+height:0;
+overflow:hidden;
+}
+.post .video-container iframe,
+.post .video-container object,
+.post .video-container embed {
+position:absolute;
+top:0;
+left:0;
+width:100%;
+height:100%;
+border:none;
+}
+.post .post-body .tr-caption-container {
+padding:0;
+}
+.post-body img {
+max-width:100% !important;
+width:auto !important;
+height:auto;
+}
+.custom-section blockquote {
+font-size: 40px;
+margin: 0;
+float: left;
+width: 100%;
+-moz-box-sizing: border-box;
+-webkit-box-sizing: border-box;
+box-sizing: border-box;
+background-color: #000000;
+}
+.custom-section blockquote:before {
+padding:10px;
+height:80px;
+width:80px;
+color: #000000;
+}
+.custom-section blockquote cite {
+font-size: 20px;
+}
+blockquote {
+text-align: center;
+background: #444444;
+margin:1.25em 0;
+padding: 50px;
+font: normal 400 24px/1.5em 'Roboto Slab', serif;
+color: #ffffff;
+position:relative;
+-webkit-border-radius:6px;
+border-radius:6px;
+}
+blockquote:before {
+content:'\f10d';
+display:block;
+margin:0 auto 50px;
+padding:15px;
+height:65px;
+width:65px;
+font:normal normal normal 14px/1 FontAwesome;
+font-size:30px;
+line-height:inherit;
+text-rendering:auto;
+-webkit-font-smoothing:antialiased;
+-moz-osx-font-smoothing:grayscale;
+-webkit-border-radius:100%;
+border-radius:100%;
+-moz-box-sizing:border-box;
+-webkit-box-sizing:border-box;
+box-sizing:border-box;
+color: #444444;
+background-color: #ffffff;
+}
+blockquote cite {
+font: normal 300 18px/1.5em 'Open Sans', sans-serif;
+font-style:normal;
+font-size:14px;
+display:block;
+margin-top:15px;
+}
+code {
+padding:1px 3px;
+color: #000000;
+background: #e0e0e0;
+-webkit-border-radius:3px;
+border-radius:3px;
+}
+pre code {
+display:block;
+padding:15px;
+overflow-x:auto;
+-webkit-border-radius:6px;
+border-radius:6px;
+}
+pre code:before {
+content:'\f121';
+display:block;
+font: normal 400 24px/1.5em 'Roboto Slab', serif;
+font-family:FontAwesome;
+line-height:1;
+font-weight:normal;
+text-rendering:auto;
+-webkit-font-smoothing:antialiased;
+-moz-osx-font-smoothing:grayscale;
+margin-bottom:15px;
+}
+a.post-link {
+font-size:35px;
+}
+.rm-container a {
+font: normal 700 32px/1em 'Open Sans',serif;
+font-size:100%;
+padding:8px 10px;
+border:2px solid;
+text-transform:uppercase;
+display:inline-block;
+}
+.post-header {
+margin:0;
+font: normal 300 18px/1.5em 'Open Sans', sans-serif;
+color: #e0e0e0;
+}
+.post-footer {
+position:relative;
+font: normal 300 18px/1.5em 'Open Sans', sans-serif;
+color: #e0e0e0;
+}
+.post-footer-line > * {
+margin-right:0 !important;
+padding:0 !important;
+}
+.post-footer ul {
+padding:0 !important;
+}
+.post-footer li {
+padding:6px 0 !important;
+list-style-type:none;
+display:inline-block;
+}
+.post-header a:link, .post-footer a:link {
+color: #e0e0e0;
+}
+.post-header a:visited, .post-footer a:visited {
+color: #e0e0e0;
+}
+.post-header a:hover, .post-footer a:hover {
+color: #666666;
+}
+.post-timestamp {
+margin-left:0 !important;
+}
+.post-share {
+padding:0;
+}
+.goog-inline-block.google-plus-share-container {
+width:33px !important;
+height:20px !important;
+overflow:hidden !important;
+}
+.post .author-profile {
+margin:20px 0 0;
+}
+.post .author-profile img {
+-webkit-border-radius:3px;
+border-radius:3px;
+margin:0 15px 0 0;
+display:block;
+}
+.post .author-profile a.g-profile {
+font: normal 300 18px/1.5em 'Open Sans', sans-serif;
+font-size:28px;
+}
+.post .author-profile a.g-profile:hover {
+text-decoration:none;
+}
+.post .author-profile > span {
+font: normal 300 18px/1.5em 'Open Sans', sans-serif;
+display:block;
+padding-top:5px;
+}
+/* Comments
+----------------------------------------------- */
+#comments {
+background: #444444;
+text-align:left;
+color: #000000;
+font: normal 400 14px/1.5em 'Roboto Slab',serif;
+margin:-1px 0 0;
+padding:0 30px;
+}
+.comments-inner {
+margin:0 auto;
+max-width:720px;
+position:relative;
+}
+#comments a {
+color:#222222;
+}
+#comments a:visited {
+color:#e0e0e0;
+}
+#comments a:hover {
+color:#666666;
+}
+#comments .thread-count a {
+color:#ffffff;
+}
+#comments .thread-count a:visited {
+color:#ffffff;
+}
+#comments .thread-count a:hover {
+color:#efefef;
+}
+#comments h4 {
+font: normal 400 14px/1.2em 'Roboto Slab', serif;
+color: #ffffff;
+margin:40px auto;
+text-align:center;
+display:inline-block;
+width:100%;
+}
+#comment-post-message a {
+color:#222222;
+}
+#comment-post-message a:visited {
+color:#e0e0e0;
+}
+#comment-post-message a:hover {
+color:#666666;
+}
+#comment-holder {
+padding:0;
+}
+#comments iframe{
+height:260px;
+}
+#comments .comment-form h4 {
+position:relative;
+margin:0 5px 20px;
+text-align:left;
+}
+.comments .comments-content .comment-header {
+position:relative;
+margin:0;
+padding:0;
+}
+.comments .comments-content .comment-header:after {
+content:'';
+display:block;
+width:100%;
+clear:both;
+}
+.comments .comment-thread.inline-thread .comment {
+position:relative;
+margin:0 -30px 0 -80px !important;
+padding:30px 30px 0 80px !important;
+}
+.comments .comment-thread.inline-thread .comment:last-child {
+border-bottom:none;
+}
+.comments {
+clear:both;
+margin:0 !important;
+}
+.comments .comments-content {
+margin-bottom:16px;
+font: normal 400 14px/1.5em 'Roboto Slab',serif;
+text-align:left;
+line-height:1.3em;
+padding:0;
+margin:0 !important;
+}
+.comments .comment .comment-actions {
+padding:20px 0 20px;
+display:inline-block;
+position:relative;
+z-index:2;
+}
+#comments .comment-replies .comment-actions {
+padding-bottom:0;
+}
+.comments .comment .comment-actions a {
+color: #000000;
+font: normal 400 14px/1.5em 'Roboto Slab',serif;
+margin:0;
+padding:0 10px 0 0;
+display:inline-block;
+}
+.comments .comment .comment-actions > a:before, .comments .comment .comment-actions span.item-control a:before {
+font:normal normal normal 14px/1.75em FontAwesome;
+font-size:inherit;
+text-rendering:auto;
+-webkit-font-smoothing:antialiased;
+-moz-osx-font-smoothing:grayscale;
+transform:translate(0,0);
+margin-right:5px;
+}
+.comments .avatar-image-container:before {
+content:'\f21b';
+font:normal normal normal 30px/1em FontAwesome;
+text-rendering:auto;
+-webkit-font-smoothing:antialiased;
+-moz-osx-font-smoothing:grayscale;
+transform:translate(0,0);
+position:absolute;
+}
+.comments .comment .comment-actions > a:before {content:'\f112'}
+.comments .comment .comment-actions span.item-control a:before {content:'\f1f8'}
+.comments .comment .comment-actions span.item-control {
+display:inline-block;
+}
+.comments .continue a:hover, .comments .comment .comment-actions a:hover {
+text-decoration:none;
+color: #666666;
+}
+.comments .comments-content .comment-thread {
+padding:0 !important;
+margin:0 !important;
+}
+.comments .comments-content .comment-thread ol{
+padding:0 !important;
+margin:0 !important;
+}
+.comments .comments-content .comment-replies .comment-thread ol {
+border-top:2px solid;
+clear:right;
+}
+.comments .comments-content .inline-thread{padding:0;}
+.comments .comments-content .comment-thread:empty{display:none;}
+.comments .comments-content .comment-replies {
+margin-top:-50px !important;
+margin-left:50px !important;
+position:relative;
+z-index:1;
+}
+.comments .comments-content .comment {
+margin:0 !important;
+}
+.comments .comments-content .comment:last-child{margin-bottom:50px !important;}
+.comments .comments-content .comment-body{position:relative;}
+.comments .comments-content .user{padding:0 5px 10px 0;display:block;float:left;font: normal 300 20px/1.5em 'Open Sans',sans-serif;font-weight:600 !important;font-size:18px;}
+.comments .comments-content .user a{color: #000000;display:inline-block;}
+.comments .comments-content .user a:hover{text-decoration:none;color: #666666;}
+.comments .comments-content .icon.blog-author {
+background:none;
+font: normal 300 20px/1.5em 'Open Sans',sans-serif;
+font-size:18px;
+font-family:'FontAwesome',fantasy;
+text-rendering:auto;
+-webkit-font-smoothing:antialiased;
+-moz-osx-font-smoothing:grayscale;
+transform:translate(0,0);
+width:auto;
+height:auto;
+margin:0;
+padding:0 2px 10px;
+float:left;
+display:inline-block !important;
+}
+.comments .comments-content .icon.blog-author:before{content:'\f007';margin-right:4px;}
+.comments .comments-content .user.icon{display:none;}
+.comments .comments-content .datetime {
+margin:0;
+font-size:14px;
+padding:6px 0;
+font-style:italic;
+float:right;
+}
+.comments .comments-content .datetime a:link, .comments .comments-content .datetime a:visited {
+opacity:0.5;
+color: #000000;
+}
+.comments .comments-content .datetime a:hover {
+opacity:1;
+}
+.comments .comments-content .comment-content {
+font:normal 300 20px/1.5em 'Open Sans',sans-serif;
+font-size:14px;
+font-weight:300;
+line-height:1.4em;
+text-align:left;
+padding:10px 0 0;
+margin:0 !important;
+}
+.comments .comments-content .owner-action{position:absolute;right:0;top:0;}
+.comments .comments-replybox{border:none;width:100%;}
+.comments .comment-replybox-single{margin-top:0;margin-left:48px;}
+.comments .comment-replybox-thread {
+margin-top:30px;
+padding:0 24px;
+}
+.comment-replies .comment-thread .comment-replybox-thread {
+margin-top:0;
+}
+.comments #threaded-comment-form{height:255px;text-align:center;}
+.comments .comments-content .loadmore a{display:block;padding:10px 16px;text-align:center;}
+.comment-footer, .blog-posts > .comment-form > p {
+padding:5px;
+text-align:center;
+color: #000000;
+}
+.comment-footer, #comment > p {
+margin:0;
+text-align:center;
+font-size:18px;
+}
+.comments .comments-content .loadmore {
+cursor:pointer;
+webkit-margin-before:0;
+-webkit-margin-after:0;
+margin-top:0;
+}
+.comments .comments-content .loadmore.loaded {
+max-height:0;
+opacity:0;
+overflow:hidden;
+}
+.comments .thread-toggle{background: #000000;color: #444444;cursor:pointer;display:inline-block;padding:8px 10px;float:right;}
+.comments .thread-chrome.thread-collapsed{display:none;}
+.comments .thread-toggle .thread-arrow {
+padding-right:5px !important;
+margin:auto !important;
+font:normal normal normal 14px/1.75em FontAwesome;
+font-size:inherit;
+text-rendering:auto;
+-webkit-font-smoothing:antialiased;
+-moz-osx-font-smoothing:grayscale;
+transform:translate(0,0);
+background:none !important;
+width:auto !important;
+height:auto !important;
+}
+.comments .thread-expanded .thread-arrow:before {
+content:'\f078';
+}
+.comments .thread-collapsed .thread-arrow:before{
+content:'\f054';
+}
+.comments .thread-count a{color:#000000;font-size:14px;}
+.comments .avatar-image-container {
+float:left;
+padding:0;
+margin:0;
+width:30px !important;
+height:30px;
+-webkit-border-radius:4px;
+border-radius:4px;
+}
+.comments .avatar-image-container img {
+width:100%;
+height:100%;
+position:relative;
+z-index:1;
+}
+.comments .comment-block {
+margin-left:50px;
+position:relative;
+padding:0;
+color:#000000;
+}
+/* Next/Prev Navigation
+----------------------------------------------- */
+#blog-pager {
+margin:-1px 0 0 0 !important;
+padding:0;
+font: normal 800 20px/1.5em 'Open Sans',sans-serif;
+text-transform:uppercase;
+position:relative;
+clear:both;
+background-color: #000000;
+}
+.blog-pager-inner {
+max-width:720px;
+margin:0 auto;
+position:relative;
+z-index:1;
+}
+#blog-pager a {
+display:inline-block;
+padding:20px 5px;
+}
+.blog-pager #blog-pager-older-link, .blog-pager #blog-pager-newer-link {
+float:left;
+}
+.home-link {
+float:right;
+}
+#blog-pager a:link {
+color: #ffffff;
+}
+#blog-pager a:visited {
+color: #ffffff;
+}
+#blog-pager a:hover {
+color: #efefef;
+}
+#blog-pager .fa {
+margin:0 6px;
+}
+/* Widgets
+----------------------------------------------- */
+#header-inner, .Header > div {
+width:auto !important;
+height:auto !important;
+}
+.widget {
+font: normal 300 14px 'Open Sans',sans-serif;
+color: #e0e0e0;
+margin:0;
+}
+.footer .widget {
+padding:0 25px;
+}
+.widget > h2 {
+font: normal 400 18px 'Roboto Slab',sans-serif;
+color: #ffffff;
+}
+/* widget lists */
+.PopularPosts ul, .Label ul, .LinkList ul, #sidebar .PageList ul, .Feed ul, .TextList ul, .BlogArchive ul, .PageList ul {
+padding:0;
+padding-left:0 !important;
+text-align:left;
+}
+/* FeaturedPost */
+.FeaturedPost .post-summary {
+position: relative;
+}
+.FeaturedPost .post-summary h3 {
+position: absolute;
+top: 50%;
+left: 50%;
+-moz-transform: translateX(-50%) translateY(-50%);
+-webkit-transform: translateX(-50%) translateY(-50%);
+-o-transform: translateX(-50%) translateY(-50%);
+-ms-transform: translateX(-50%) translateY(-50%);
+transform: translateX(-50%) translateY(-50%);
+font: normal 700 24px/1.05em 'Open Sans',sans-serif;
+font-weight: 300;
+font-size: 40px;
+text-align: center;
+}
+.FeaturedPost .post-summary img {
+display: block;
+margin: 0;
+}
+/* BlogList */
+.BlogList .blog-list-container .blog-content {
+float:none;
+margin:0 0 5px 0;
+}
+.BlogList .blog-title {
+margin:2px 5px 10px 20px !important;
+}
+.BlogList .blog-title a {
+font-size:16px;
+}
+.BlogList .item-title {
+font-size:16px;
+}
+.BlogList .blog-list-container .item-thumbnail {
+margin:0 10px 5px 0;
+}
+.BlogList .item-snippet {
+font-size:12px;
+}
+.BlogList .item-time {
+margin-top:5px;
+opacity:0.75;
+font-style:normal;
+}
+/* PlusBadge and PlusFollowers */
+.PlusBadge > div {
+display:block !important;
+margin-top:15px !important;
+}
+/* NewsBar */
+.NewsBar h2:before {
+content:'\f1ea';
+}
+.NewsBar .statusItem_gsnb {
+padding:6px 10px;
+border:1px solid;
+-webkit-border-radius:2px;
+border-radius:2px;
+display:inline-block;
+}
+.NewsBar .resultsBox_gsnb {
+margin-top:15px;
+}
+.NewsBar .gs-newsResult.gs-result {
+margin-bottom:10px;
+}
+.gs-result .gs-title, .gs-result .gs-title *, .gs-result .gs-watermark {
+color: #e0e0e0 !important;
+}
+/* PageList */
+.PageList .selected a {
+font-weight:600 !important;
+border-bottom:1px dashed;
+}
+/* BlogArchive */
+.BlogArchive ul.flat {
+text-align:right;
+}
+.BlogArchive ul.flat li a {
+text-align:left;
+float:left;
+}
+.BlogArchive select {
+display:block;
+width:100%;
+padding:5px;
+}
+/* ContactForm */
+.contact-form-widget {
+padding-top: 0;
+max-width: 100% !important;
+}
+.ContactForm form {
+font-size: 0;
+}
+.ContactForm form > br, .ContactForm form > p {display:none;}
+.contact-form-button {
+margin-top:5px;
+}
+.ContactForm form input, .ContactForm form textarea {
+padding: 10px;
+margin: 5px 0;
+color: #ffffff;
+font: normal 300 20px/1.05em 'Open Sans',sans-serif;
+font-size: 18px;
+background-color: #151515;
+border: none;
+outline: none;
+height: auto;
+float: left;
+}
+.ContactForm form input:focus, .ContactForm form textarea:focus, .ContactForm form input:hover, .ContactForm form textarea:hover {
+outline: none;
+border: none;
+}
+.contact-form-name, .contact-form-email {
+width: calc(50% - 5px) !important;
+-moz-box-sizing: border-box;
+-webkit-box-sizing: border-box;
+box-sizing: border-box;
+max-width: 100% !important;
+}
+.ContactForm form .contact-form-name {
+float: left;
+margin-right: 5px;
+}
+.ContactForm form .contact-form-email {
+float: right;
+margin-left: 5px;
+}
+.contact-form-email-message {
+clear: both;
+min-height: 150px;
+}
+.ContactForm form textarea {
+max-width: 100% !important;
+width: 100%;
+-moz-box-sizing: border-box;
+-webkit-box-sizing: border-box;
+box-sizing: border-box;
+}
+.contact-form-button.contact-form-button-submit {
+width:100%;
+-webkit-border-radius: 0;
+border-radius: 0;
+font: normal 400 18px 'Roboto Slab',sans-serif;
+}
+/* Image */
+.Image .widget-content {
+position:relative;
+}
+.Image .widget-content:after {
+content:'';
+display:block;
+clear:both;
+}
+.Image .widget-content a {
+float:left;
+}
+.Image .widget-content img {
+max-width:100%;
+width:auto;
+height:auto;
+float:left;
+}
+.Image .caption {
+position:absolute;
+bottom:0;
+left:0;
+font: normal 300 14px 'Open Sans',sans-serif;
+font-size:16px;
+color: #ffffff;
+padding:6px 10px;
+display:inline-block;
+}
+/* Labels */
+.Label li, .Label .widget-content {
+text-align:left;
+}
+.Label li span:first-child {
+border-bottom:1px dashed;
+}
+.Label li span:nth-child(2) {
+float:right;
+text-align:right;
+}
+/* Flickr Photostreams */
+#min-flickr a {
+float:left;
+line-height:0;
+width:33.3%;
+box-sizing:border-box;
+display:block;
+padding:2px;
+opacity:0.85;
+}
+#min-flickr a:hover {opacity:1;}
+#min-flickr img {
+width:100% !important;
+height:auto !important;
+-webkit-border-radius:2px;
+border-radius:2px;
+}
+/* Follow By Email */
+.FollowByEmail form {
+padding:0 3px 0 9px;
+background:white;
+}
+.FollowByEmail form input {
+border:none !important;
+padding:0 5px;
+}
+.FollowByEmail .follow-by-email-address {
+margin:5px 0;
+}
+.FollowByEmail .follow-by-email-inner tr:before {content:'\f003';display:table-cell;opacity:0.5;margin:0 1px 0 0;color: #e0e0e0;}
+.FollowByEmail .follow-by-email-inner tr:before, .Profile .profile-name-link:before, .Profile dd.profile-data:before, .post .g-profile:before {
+font:normal normal normal 16px/1 FontAwesome;
+text-rendering:auto;
+-webkit-font-smoothing:antialiased;
+-moz-osx-font-smoothing:grayscale;
+transform:translate(0,0);
+}
+/* Popular Posts */
+.PopularPosts li {
+margin:0;
+padding:5px 0 !important;
+}
+.PopularPosts li .item-content {
+margin-bottom:10px;
+}
+.PopularPosts li .item-content:after {
+content:'';
+display:block;
+clear:both;
+}
+.PopularPosts .item-title a {
+font:normal 300 14px 'Open Sans',sans-serif;
+font-size:16px;
+font-weight:600;
+text-decoration:underline;
+}
+.PopularPosts li > a:hover:after {
+opacity:1;
+}
+.PopularPosts li .item-thumbnail-only {
+margin-bottom:10px;
+}
+.PopularPosts li .item-thumbnail-only:after {
+content:'';
+display:block;
+clear:both;
+}
+.PopularPosts div.item-thumbnail {
+padding:0;
+margin:0 10px 0 0;
+position:relative;
+z-index:1;
+width:70px;
+height:70px;
+}
+.PopularPosts .item-thumbnail img {
+max-width:100%;
+width:auto;
+height:auto;
+padding:0;
+-webkit-border-radius:3px;
+border-radius:3px;
+}
+.PopularPosts .item-snippet {
+font-size:13px;
+line-height:1.25em;
+padding:0 0 0 80px;
+}
+.PopularPosts li > .item-snippet {
+margin-bottom:10px;
+}
+/* Search
+----------------------------------------------- */
+.CustomSearch h2:before {
+content:'\f002';
+}
+.searchform, .gsc-search-box {
+padding:5px;
+margin:0;
+color:black;
+background:white;
+position:relative;
+min-width:100px;
+-moz-box-sizing:border-box;
+-webkit-box-sizing:border-box;
+box-sizing:border-box;
+max-width:300px;
+}
+.searchform:after, .gsc-search-box:after {
+content:'';
+display:block;
+width:100%;
+clear:both;
+}
+.searchform .search-input {
+position:absolute;
+left:5px;
+right:45px;
+}
+.search-input input, .gsc-input input {
+width:100%;
+}
+.searchform input {
+border:none !important;
+padding:5px;
+background:none;
+}
+.searchform .search-button {
+float:right;
+}
+.searchform .search-button input {
+font:normal normal normal 14px/1 FontAwesome;
+font-size:16px;
+text-rendering:auto;
+-webkit-font-smoothing:antialiased;
+-moz-osx-font-smoothing:grayscale;
+transform:translate(0,0);
+cursor:pointer;
+}
+table.gsc-search-box {
+padding:0;
+margin-bottom:0 !important;
+}
+input.gsc-input {
+padding:5px !important;
+width:100%;
+border:none !important;
+}
+input.gsc-search-button {
+margin:0;
+margin-left:8px;
+border:0;
+border-radius:2px;
+-moz-border-radius:2px;
+background-color: rgba(0,0,0,.5);
+cursor:pointer;
+color: #ffffff;
+z-index:0;
+font-size:13px;
+height:26px;
+}
+/* Footer
+----------------------------------------------- */
+#footer-wrapper {
+clear:both;
+margin:0;
+padding:50px 25px;
+font: normal 300 18px/1.5em 'Open Sans', sans-serif;
+color: #ffffff;
+background-color:rgba(0,0,0,0.5);
+}
+#footer-wrapper .widget > h2 {
+display: none;
+}
+#footer-wrapper .widget a {
+text-decoration:none;
+}
+#footer-wrapper .widget a:hover {
+text-decoration:underline;
+}
+.footer-inner {
+padding:0;
+}
+#footer-wrapper .socials {
+text-align: center;
+margin-bottom: 35px;
+}
+#footer-wrapper .socials .fa {
+margin: 0 10px;
+}
+#Attribution1 {
+margin:0 auto;
+}
+
+--></style>
+<style type='text/css'>
+          .post .author-profile, .mobile-index-contents .author-profile, .post-header, .post-footer, .post-share, .status-msg-wrap, .content {display:none;}
+          .post {
+		    position:relative;
+            float:left;
+            overflow:hidden;
+            width:25%;
+            padding-bottom:25%;
+          }
+          .cover {
+            background-size:cover;
+            background-position:center center;
+            background-repeat:no-repeat;
+            background-attachment:scroll;
+          }
+          .cover .overlay {
+            padding:50px;
+            height:auto;
+          }
+          .floater.no-js {
+			opacity: 1;
+		  }
+          .floater, .blur {
+			opacity:0;
+		  }
+          .cover:hover .show-yeah {
+			opacity:1;
+		  }
+          h3.post-title, .entry-title {
+            font-size:20px;
+          }
+          @media only screen and (min-width:1px) and (max-width:1025px){
+            .post {
+			  width:33.3% !important;
+              padding-bottom: 33.3%;
+			}		
+		  }
+          @media only screen and (min-width:1px) and (max-width:801px){
+            .post {
+			  width:50% !important;
+              padding-bottom: 50%;
+			}
+		  }
+          @media only screen and (min-width:1px) and (max-width:481px){
+            .post {
+			  width:100% !important;
+              padding-bottom: 100%;
+			}
+		  }
+	    </style>
+<style rel='stylesheet' type='text/css'>
+      @media only screen and (min-width:1px) and (max-width:801px){
+        h1.title {
+          font-size: 18px;
+		}
+        #HTML1 h3.intro {
+		  font-size: 36px;
+		}
+        #HTML1 p.continue {
+		  font-size: 18px;
+		}
+		.custom-section blockquote {
+    	  font-size: 34px;
+        }
+        .custom-section blockquote:before {
+		  line-height: 1.5em;
+		  width: 70px;
+		  height: 70px;
+		}
+        .custom-section blockquote cite {
+		  font-size: 16px;
+		}
+        .widget ul.resume-list:before {
+		  left: 50px;
+		  margin-left: -2px;
+		}
+        .widget .resume-list li {
+		  text-align: center !important;
+		  float: none !important;
+		  margin-top: 50px;
+		  margin-right: 0 !important;
+		  margin-bottom: 50px;
+		  margin-left: 50px !important;
+    	  padding: 0 50px;
+		  width: auto;
+		}
+        .widget .resume-list li:first-child {
+		  padding-top: 50px;
+		}
+        .widget .resume-list li:last-child {
+		  padding-bottom: 50px;
+		}
+        .widget .resume-list li:before {
+		  left: 0 !important;
+		  margin-right: 0 !important;
+		  margin-left: -10px !important;
+		}
+        #things-i-do li {
+		  width: 100%;
+		}
+        .footer td.columns-cell {
+		  display:block;
+		  margin-bottom:30px;
+		  width:100% !important;
+		}
+        .footer td.columns-cell:last-child {
+		  margin-bottom:0;
+		}
+	  }
+      @media only screen and (min-width:1px) and (max-width:701px){
+        #about-me, #contact {
+		  padding: 50px 0 0;
+		}
+        #contact {
+		  font-size: 16px;
+		}
+        #about-me .widget, #contact .widget {
+		  width:100%;
+		  float:none;
+		  padding: 0 50px 50px;
+		}
+		#blog-pager {
+  		  padding:0 20px;
+		}
+	  }
+	  @media only screen and (min-width:1px) and (max-width:641px){		
+        #header {
+		  padding:25px 50px;
+        }
+        #HTML1 h3.intro {
+		  font-size: 24px;
+		}
+        #HTML1 p.continue {
+		  font-size: 14px;
+		}
+		#view-more {
+    	  bottom: 10px;
+        }
+        #view-more .fa-4x {
+		  font-size: 2.75em;	
+		}
+        .story, div.post-body {
+		  font-size:16px;
+		  line-height:1.5em;
+		}
+		.post-body h1 {font-size:24px;margin:0.67em 0;}
+		.post-body h2 {font-size:22px;margin:0.83em 0;}
+		.post-body h3 {font-size:20px;margin:1em 0;}
+		.post-body h4 {font-size:16px;margin:1.33em 0;}
+		.post-body h5 {font-size:14px;margin:1.67em 0;}
+		.custom-section blockquote {
+    	  font-size: 30px;
+		  padding: 50px 25px;
+		}
+	  }
+	  @media only screen and (min-width:1px) and (max-width:481px){
+        #header.kr-section, .content, .custom-section .widget, #uds-searchControl, #footer-wrapper {
+		  padding: 25px;
+		}
+        #about-me, #contact {
+		  padding-top: 25px;
+		  padding-bottom: 25px;
+		}
+        #about-me .widget, #contact .widget {
+		  padding-left: 25px;
+		  padding-right: 25px;
+		  padding-bottom: 25px;
+		}
+        #things-i-do li {
+		  padding: 25px;
+		}
+        .widget ul.resume-list {
+		  padding: 0;
+		}
+		.widget ul.resume-list:before {
+		  top:0;
+		  bottom: 0;
+          left: 0;
+          margin-left: -2px;
+      	}
+        .widget ul.resume-list li {
+		  margin-top: 25px;
+		  margin-bottom: 25px;
+		  margin-left: 25px !important;
+		  padding: 0;
+		}
+        .widget ul.resume-list li:before {
+		  margin-left: -35px !important;
+		}
+        .widget .resume-list li:first-child {
+		  padding-top: 0;
+		}
+        .widget .resume-list li:last-child {
+		  padding-bottom: 0;
+		}
+        .c-hamburger {
+		  margin: 25px;
+		}
+        #PageList1 {
+		  left:0;
+		  min-width: 200px;
+		  margin: 10px;
+		}
+        .custom-section .story {
+		  padding: 0;
+		}
+        #gmap_canvas {
+          height: 100% !important;
+          position: absolute !important;
+          top: 0;
+		  right: 0;
+          bottom: 0;
+		  left: 0;
+		}
+		#uds-searchControl .gsc-results-wrapper-visible {
+		  margin-bottom:25px;
+		}
+		.custom-section blockquote, blockquote {
+  		  font-size:18px;
+  		  padding:25px;
+		}
+        .custom-section blockquote:before, blockquote:before {
+		  padding: 18px;
+		  line-height: 1em;
+		  width: 60px;
+		  height: 60px;
+		  margin-bottom: 25px;
+    	  font-size: 26px;
+		}
+        #blog-pager .link-text {display:none;}
+        #footer-wrapper .socials {
+		  margin: 10px 0 25px;
+		}
+	  }
+	  @media only screen and (min-width:1px) and (max-width:400px){
+		#uds-searchControl .gsc-results-wrapper-visible {
+		  margin-bottom:20px;
+		}
+	  }
+    </style>
+<script type='text/javascript'>
+	  //<![CDATA[
+		var a="&m=1",d="(^|&)m=",e="?",f="?m=1";function g(){var b=window.location.href,c=b.split(e);switch(c.length){case 1:return b+f;case 2:return 0<=c[1].search(d)?null:b+a;default:return null}}var h=navigator.userAgent;if(-1!=h.indexOf("Mobile")&&-1!=h.indexOf("WebKit")&&-1==h.indexOf("iPad")||-1!=h.indexOf("Opera Mini")||-1!=h.indexOf("IEMobile")){var k=g();k&&window.location.replace(k)};
+	  //]]>
+	</script>
+  </head><!--<head>
+<link href='https://www.blogger.com/static/v1/widgets/2437439463-css_bundle_v2.css' rel='stylesheet' type='text/css'/>
+<style type='text/css'>@font-face{font-family:'Open Sans';font-style:normal;font-weight:300;src:local('Open Sans Light'),local('OpenSans-Light'),url(//fonts.gstatic.com/s/opensans/v15/DXI1ORHCpsQm3Vp6mXoaTa-j2U0lmluP9RWlSytm3ho.woff2)format('woff2');unicode-range:U+0460-052F,U+1C80-1C88,U+20B4,U+2DE0-2DFF,U+A640-A69F,U+FE2E-FE2F;}@font-face{font-family:'Open Sans';font-style:normal;font-weight:300;src:local('Open Sans Light'),local('OpenSans-Light'),url(//fonts.gstatic.com/s/opensans/v15/DXI1ORHCpsQm3Vp6mXoaTZX5f-9o1vgP2EXwfjgl7AY.woff2)format('woff2');unicode-range:U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116;}@font-face{font-family:'Open Sans';font-style:normal;font-weight:300;src:local('Open Sans Light'),local('OpenSans-Light'),url(//fonts.gstatic.com/s/opensans/v15/DXI1ORHCpsQm3Vp6mXoaTRWV49_lSm1NYrwo-zkhivY.woff2)format('woff2');unicode-range:U+1F00-1FFF;}@font-face{font-family:'Open Sans';font-style:normal;font-weight:300;src:local('Open Sans Light'),local('OpenSans-Light'),url(//fonts.gstatic.com/s/opensans/v15/DXI1ORHCpsQm3Vp6mXoaTaaRobkAwv3vxw3jMhVENGA.woff2)format('woff2');unicode-range:U+0370-03FF;}@font-face{font-family:'Open Sans';font-style:normal;font-weight:300;src:local('Open Sans Light'),local('OpenSans-Light'),url(//fonts.gstatic.com/s/opensans/v15/DXI1ORHCpsQm3Vp6mXoaTf8zf_FOSsgRmwsS7Aa9k2w.woff2)format('woff2');unicode-range:U+0102-0103,U+0110-0111,U+1EA0-1EF9,U+20AB;}@font-face{font-family:'Open Sans';font-style:normal;font-weight:300;src:local('Open Sans Light'),local('OpenSans-Light'),url(//fonts.gstatic.com/s/opensans/v15/DXI1ORHCpsQm3Vp6mXoaTT0LW-43aMEzIO6XUTLjad8.woff2)format('woff2');unicode-range:U+0100-024F,U+0259,U+1E00-1EFF,U+2020,U+20A0-20AB,U+20AD-20CF,U+2113,U+2C60-2C7F,U+A720-A7FF;}@font-face{font-family:'Open Sans';font-style:normal;font-weight:300;src:local('Open Sans Light'),local('OpenSans-Light'),url(//fonts.gstatic.com/s/opensans/v15/DXI1ORHCpsQm3Vp6mXoaTegdm0LZdjqr5-oayXSOefg.woff2)format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;}@font-face{font-family:'Open Sans';font-style:normal;font-weight:400;src:local('Open Sans Regular'),local('OpenSans-Regular'),url(//fonts.gstatic.com/s/opensans/v15/K88pR3goAWT7BTt32Z01mxJtnKITppOI_IvcXXDNrsc.woff2)format('woff2');unicode-range:U+0460-052F,U+1C80-1C88,U+20B4,U+2DE0-2DFF,U+A640-A69F,U+FE2E-FE2F;}@font-face{font-family:'Open Sans';font-style:normal;font-weight:400;src:local('Open Sans Regular'),local('OpenSans-Regular'),url(//fonts.gstatic.com/s/opensans/v15/RjgO7rYTmqiVp7vzi-Q5URJtnKITppOI_IvcXXDNrsc.woff2)format('woff2');unicode-range:U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116;}@font-face{font-family:'Open Sans';font-style:normal;font-weight:400;src:local('Open Sans Regular'),local('OpenSans-Regular'),url(//fonts.gstatic.com/s/opensans/v15/LWCjsQkB6EMdfHrEVqA1KRJtnKITppOI_IvcXXDNrsc.woff2)format('woff2');unicode-range:U+1F00-1FFF;}@font-face{font-family:'Open Sans';font-style:normal;font-weight:400;src:local('Open Sans Regular'),local('OpenSans-Regular'),url(//fonts.gstatic.com/s/opensans/v15/xozscpT2726on7jbcb_pAhJtnKITppOI_IvcXXDNrsc.woff2)format('woff2');unicode-range:U+0370-03FF;}@font-face{font-family:'Open Sans';font-style:normal;font-weight:400;src:local('Open Sans Regular'),local('OpenSans-Regular'),url(//fonts.gstatic.com/s/opensans/v15/59ZRklaO5bWGqF5A9baEERJtnKITppOI_IvcXXDNrsc.woff2)format('woff2');unicode-range:U+0102-0103,U+0110-0111,U+1EA0-1EF9,U+20AB;}@font-face{font-family:'Open Sans';font-style:normal;font-weight:400;src:local('Open Sans Regular'),local('OpenSans-Regular'),url(//fonts.gstatic.com/s/opensans/v15/u-WUoqrET9fUeobQW7jkRRJtnKITppOI_IvcXXDNrsc.woff2)format('woff2');unicode-range:U+0100-024F,U+0259,U+1E00-1EFF,U+2020,U+20A0-20AB,U+20AD-20CF,U+2113,U+2C60-2C7F,U+A720-A7FF;}@font-face{font-family:'Open Sans';font-style:normal;font-weight:400;src:local('Open Sans Regular'),local('OpenSans-Regular'),url(//fonts.gstatic.com/s/opensans/v15/cJZKeOuBrn4kERxqtaUH3VtXRa8TVwTICgirnJhmVJw.woff2)format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;}@font-face{font-family:'Open Sans';font-style:normal;font-weight:700;src:local('Open Sans Bold'),local('OpenSans-Bold'),url(//fonts.gstatic.com/s/opensans/v15/k3k702ZOKiLJc3WVjuplzK-j2U0lmluP9RWlSytm3ho.woff2)format('woff2');unicode-range:U+0460-052F,U+1C80-1C88,U+20B4,U+2DE0-2DFF,U+A640-A69F,U+FE2E-FE2F;}@font-face{font-family:'Open Sans';font-style:normal;font-weight:700;src:local('Open Sans Bold'),local('OpenSans-Bold'),url(//fonts.gstatic.com/s/opensans/v15/k3k702ZOKiLJc3WVjuplzJX5f-9o1vgP2EXwfjgl7AY.woff2)format('woff2');unicode-range:U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116;}@font-face{font-family:'Open Sans';font-style:normal;font-weight:700;src:local('Open Sans Bold'),local('OpenSans-Bold'),url(//fonts.gstatic.com/s/opensans/v15/k3k702ZOKiLJc3WVjuplzBWV49_lSm1NYrwo-zkhivY.woff2)format('woff2');unicode-range:U+1F00-1FFF;}@font-face{font-family:'Open Sans';font-style:normal;font-weight:700;src:local('Open Sans Bold'),local('OpenSans-Bold'),url(//fonts.gstatic.com/s/opensans/v15/k3k702ZOKiLJc3WVjuplzKaRobkAwv3vxw3jMhVENGA.woff2)format('woff2');unicode-range:U+0370-03FF;}@font-face{font-family:'Open Sans';font-style:normal;font-weight:700;src:local('Open Sans Bold'),local('OpenSans-Bold'),url(//fonts.gstatic.com/s/opensans/v15/k3k702ZOKiLJc3WVjuplzP8zf_FOSsgRmwsS7Aa9k2w.woff2)format('woff2');unicode-range:U+0102-0103,U+0110-0111,U+1EA0-1EF9,U+20AB;}@font-face{font-family:'Open Sans';font-style:normal;font-weight:700;src:local('Open Sans Bold'),local('OpenSans-Bold'),url(//fonts.gstatic.com/s/opensans/v15/k3k702ZOKiLJc3WVjuplzD0LW-43aMEzIO6XUTLjad8.woff2)format('woff2');unicode-range:U+0100-024F,U+0259,U+1E00-1EFF,U+2020,U+20A0-20AB,U+20AD-20CF,U+2113,U+2C60-2C7F,U+A720-A7FF;}@font-face{font-family:'Open Sans';font-style:normal;font-weight:700;src:local('Open Sans Bold'),local('OpenSans-Bold'),url(//fonts.gstatic.com/s/opensans/v15/k3k702ZOKiLJc3WVjuplzOgdm0LZdjqr5-oayXSOefg.woff2)format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;}@font-face{font-family:'Open Sans';font-style:normal;font-weight:800;src:local('Open Sans ExtraBold'),local('OpenSans-ExtraBold'),url(//fonts.gstatic.com/s/opensans/v15/EInbV5DfGHOiMmvb1Xr-hq-j2U0lmluP9RWlSytm3ho.woff2)format('woff2');unicode-range:U+0460-052F,U+1C80-1C88,U+20B4,U+2DE0-2DFF,U+A640-A69F,U+FE2E-FE2F;}@font-face{font-family:'Open Sans';font-style:normal;font-weight:800;src:local('Open Sans ExtraBold'),local('OpenSans-ExtraBold'),url(//fonts.gstatic.com/s/opensans/v15/EInbV5DfGHOiMmvb1Xr-hpX5f-9o1vgP2EXwfjgl7AY.woff2)format('woff2');unicode-range:U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116;}@font-face{font-family:'Open Sans';font-style:normal;font-weight:800;src:local('Open Sans ExtraBold'),local('OpenSans-ExtraBold'),url(//fonts.gstatic.com/s/opensans/v15/EInbV5DfGHOiMmvb1Xr-hhWV49_lSm1NYrwo-zkhivY.woff2)format('woff2');unicode-range:U+1F00-1FFF;}@font-face{font-family:'Open Sans';font-style:normal;font-weight:800;src:local('Open Sans ExtraBold'),local('OpenSans-ExtraBold'),url(//fonts.gstatic.com/s/opensans/v15/EInbV5DfGHOiMmvb1Xr-hqaRobkAwv3vxw3jMhVENGA.woff2)format('woff2');unicode-range:U+0370-03FF;}@font-face{font-family:'Open Sans';font-style:normal;font-weight:800;src:local('Open Sans ExtraBold'),local('OpenSans-ExtraBold'),url(//fonts.gstatic.com/s/opensans/v15/EInbV5DfGHOiMmvb1Xr-hv8zf_FOSsgRmwsS7Aa9k2w.woff2)format('woff2');unicode-range:U+0102-0103,U+0110-0111,U+1EA0-1EF9,U+20AB;}@font-face{font-family:'Open Sans';font-style:normal;font-weight:800;src:local('Open Sans ExtraBold'),local('OpenSans-ExtraBold'),url(//fonts.gstatic.com/s/opensans/v15/EInbV5DfGHOiMmvb1Xr-hj0LW-43aMEzIO6XUTLjad8.woff2)format('woff2');unicode-range:U+0100-024F,U+0259,U+1E00-1EFF,U+2020,U+20A0-20AB,U+20AD-20CF,U+2113,U+2C60-2C7F,U+A720-A7FF;}@font-face{font-family:'Open Sans';font-style:normal;font-weight:800;src:local('Open Sans ExtraBold'),local('OpenSans-ExtraBold'),url(//fonts.gstatic.com/s/opensans/v15/EInbV5DfGHOiMmvb1Xr-hugdm0LZdjqr5-oayXSOefg.woff2)format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;}</style>
+<link href='https://www.blogger.com/dyn-css/authorization.css?targetBlogID=4235966419721239060&amp;zx=37d6c815-405b-4b04-af36-00caa18053a0' media='none' onload='if(media!=&#39;all&#39;)media=&#39;all&#39;' rel='stylesheet'/><noscript><link href='https://www.blogger.com/dyn-css/authorization.css?targetBlogID=4235966419721239060&amp;zx=37d6c815-405b-4b04-af36-00caa18053a0' rel='stylesheet'/></noscript>
+</head>-->
+  <body class='loading'>
+<div id='preloader'>
+<div></div>
+<span class='icon'></span>
+<script type='text/javascript'>
+	  var preloader = document.getElementById('preloader');
+	  preloader.className = 'js';
+    </script>
+</div>
+<div class='navbar no-items section' id='navbar'>
+</div>
+<div itemscope='itemscope' itemtype='http://schema.org/Blog' style='display: none;'>
+<meta content='Kronos' itemprop='name'/>
+<meta content='The ultimate portofolio/resume Blogger theme.' itemprop='description'/>
+</div>
+<div id='outer-wrapper'>
+<header id='header-wrapper'>
+<div class='header kr-section section' id='header' name='Intro'><div class='widget Header' data-version='1' id='Header1'>
+<div id="header-inner" style="background-image: url(&quot;//1.bp.blogspot.com/-C8QZxKpPofA/V1LSaOMwjjI/AAAAAAAABZU/ak8-HfMwAO8wrWWwkO6mYCI0mzR4j3QYQCK4B/s1600/KRONOS.png&quot;); background-position: left; width: 100px; min-height: 100px; _height: 100px; background-repeat: no-repeat; ">
+<div class='titlewrapper' style='background: transparent'>
+<h1 class='title' style='background: transparent; border-width: 0px'>
+Kronos
+</h1>
+</div>
+<div class='descriptionwrapper'>
+<p class='description'><span>The ultimate portofolio Blogger theme.</span></p>
+</div>
+</div>
+</div><div class='widget HTML' data-version='1' id='HTML1'>
+<h2 class='title'>Intro</h2>
+<div class='widget-content'>
+<h3 class="intro">Hi, I&#8217;m a <strong>super creative</strong> being working with <strong>many things</strong>.</h3>
+<p class="continue">Take a look at my artworks. Don&#8217;t worry, they won&#8217;t <span class="underline">bite</span>.</p>
+</div>
+<div class='clear'></div>
+<span class='widget-item-control'>
+<span class='item-control blog-admin'>
+<a class='quickedit' href='//www.blogger.com/rearrange?blogID=4235966419721239060&widgetType=HTML&widgetId=HTML1&action=editWidget&sectionId=header' onclick='return _WidgetManager._PopupConfig(document.getElementById("HTML1"));' target='configHTML1' title='Edit'>
+<img alt='' height='18' src='https://resources.blogblog.com/img/icon18_wrench_allbkg.png' width='18'/>
+</a>
+</span>
+</span>
+<div class='clear'></div>
+</div><div class='widget PageList' data-version='1' id='PageList1'>
+<h2>Menu</h2>
+<div class='widget-content'>
+<ul>
+<li>
+<a href='https://kronosmond-ozmondstudio.blogspot.co.id/p/more-about-kronos.html'>More About Kronos</a>
+</li>
+<li>
+<a href='http://kronosmond-ozmondstudio.blogspot.com/#'>Purchase</a>
+</li>
+<li>
+<a href='http://kronosmond-ozmondstudio.blogspot.com/404'>404 Example</a>
+</li>
+</ul>
+<div class='clear'></div>
+<span class='widget-item-control'>
+<span class='item-control blog-admin'>
+<a class='quickedit' href='//www.blogger.com/rearrange?blogID=4235966419721239060&widgetType=PageList&widgetId=PageList1&action=editWidget&sectionId=header' onclick='return _WidgetManager._PopupConfig(document.getElementById("PageList1"));' target='configPageList1' title='Edit'>
+<img alt='' height='18' src='https://resources.blogblog.com/img/icon18_wrench_allbkg.png' width='18'/>
+</a>
+</span>
+</span>
+<div class='clear'></div>
+</div>
+</div></div>
+<a href='#' id='view-more'><span class='fa fa-angle-down fa-4x'></span></a>
+</header>
+<div id='main-wrapper'>
+<div class='custom-section section' id='custom-section-1' name='Custom Section 1'><div class='widget Text' data-version='1' id='Text3'>
+<h2 class='title'>My Story</h2>
+<div class='widget-content'>
+<div class="story"><br /><h3>My Story</h3><br /><p>Singulis prodesset in his, no quo omnes aeterno phaedrum. Duis volumus eu pro. Eum ut aliquando definitiones, ne est diam vivendum erroribus. Nam ei euripidis intellegat theophrastus, vix ea possit instructior.</p><br /></div>
+</div>
+<div class='clear'></div>
+<span class='widget-item-control'>
+<span class='item-control blog-admin'>
+<a class='quickedit' href='//www.blogger.com/rearrange?blogID=4235966419721239060&widgetType=Text&widgetId=Text3&action=editWidget&sectionId=custom-section-1' onclick='return _WidgetManager._PopupConfig(document.getElementById("Text3"));' target='configText3' title='Edit'>
+<img alt='' height='18' src='https://resources.blogblog.com/img/icon18_wrench_allbkg.png' width='18'/>
+</a>
+</span>
+</span>
+<div class='clear'></div>
+</div></div>
+<div class='main kr-section m-scene section' id='main' name='Portofolio'><div class='widget Blog' data-version='1' id='Blog1'>
+<div class='blog-posts hfeed'>
+<!--Can't find substitution for tag [defaultAdStart]-->
+<div class='post-outer'>
+<article class='post hentry' itemscope='itemscope' itemtype='http://schema.org/BlogPosting'>
+<meta content='https://3.bp.blogspot.com/-dKr7tLEL9zI/V1EIm9Fv_ZI/AAAAAAAABYI/TsfM_A7bBzEAhbFf_N4bCU1kVLmXKakhACLcB/s640/girl-926738_1920.jpg' itemprop='image_url'/>
+<meta content='4235966419721239060' itemprop='blogId'/>
+<meta content='6612473775461905064' itemprop='postId'/>
+<a name='6612473775461905064'></a>
+<div class='cover aura' style='background-image: url();'>
+<span class='hide thumb-url'>https://3.bp.blogspot.com/-dKr7tLEL9zI/V1EIm9Fv_ZI/AAAAAAAABYI/TsfM_A7bBzEAhbFf_N4bCU1kVLmXKakhACLcB/s72-c/girl-926738_1920.jpg</span>
+<div class='floater no-js'>
+<div class='overlay'>
+<h3 class='post-title entry-title' itemprop='name'>
+<a href='https://kronosmond-ozmondstudio.blogspot.co.id/2016/06/coastline.html'>Coastline</a>
+</h3>
+</div>
+</div>
+</div>
+</article>
+</div>
+<div class='post-outer'>
+<article class='post hentry' itemscope='itemscope' itemtype='http://schema.org/BlogPosting'>
+<meta content='https://3.bp.blogspot.com/-y9U4yAyp-xM/V1D0kxW94TI/AAAAAAAABXw/nnUmYKLg7_chJ90B5i-FZ5XPL5nboEBhwCLcB/s640/jellyfish-593157.jpg' itemprop='image_url'/>
+<meta content='4235966419721239060' itemprop='blogId'/>
+<meta content='1000869863045885936' itemprop='postId'/>
+<a name='1000869863045885936'></a>
+<div class='cover aura' style='background-image: url();'>
+<span class='hide thumb-url'>https://3.bp.blogspot.com/-y9U4yAyp-xM/V1D0kxW94TI/AAAAAAAABXw/nnUmYKLg7_chJ90B5i-FZ5XPL5nboEBhwCLcB/s72-c/jellyfish-593157.jpg</span>
+<div class='floater no-js'>
+<div class='overlay'>
+<h3 class='post-title entry-title' itemprop='name'>
+<a href='https://kronosmond-ozmondstudio.blogspot.co.id/2016/06/exotic-dance.html'>Exotic Dance</a>
+</h3>
+</div>
+</div>
+</div>
+</article>
+</div>
+<div class='post-outer'>
+<article class='post hentry' itemscope='itemscope' itemtype='http://schema.org/BlogPosting'>
+<meta content='https://1.bp.blogspot.com/-sAXvtXNxm_U/V1BZ0V2LAwI/AAAAAAAABWc/4uJ2q0roHYI7osz_Sz-r-1camCHjfgrfgCLcB/s640/sad-woman-1048897_1920.jpg' itemprop='image_url'/>
+<meta content='4235966419721239060' itemprop='blogId'/>
+<meta content='6532355914761093327' itemprop='postId'/>
+<a name='6532355914761093327'></a>
+<div class='cover aura' style='background-image: url();'>
+<span class='hide thumb-url'>https://1.bp.blogspot.com/-sAXvtXNxm_U/V1BZ0V2LAwI/AAAAAAAABWc/4uJ2q0roHYI7osz_Sz-r-1camCHjfgrfgCLcB/s72-c/sad-woman-1048897_1920.jpg</span>
+<div class='floater no-js'>
+<div class='overlay'>
+<h3 class='post-title entry-title' itemprop='name'>
+<a href='https://kronosmond-ozmondstudio.blogspot.co.id/2016/06/sad-woman.html'>Sad Woman</a>
+</h3>
+</div>
+</div>
+</div>
+</article>
+</div>
+<div class='post-outer'>
+<article class='post hentry' itemscope='itemscope' itemtype='http://schema.org/BlogPosting'>
+<meta content='https://4.bp.blogspot.com/-OBxj_E8qVZA/V0-97qZuIcI/AAAAAAAABWA/GloTunFizs4K8WNxVcyBqOgGanVkmX4agCLcB/s640/field-691616.jpg' itemprop='image_url'/>
+<meta content='4235966419721239060' itemprop='blogId'/>
+<meta content='5067923713450894095' itemprop='postId'/>
+<a name='5067923713450894095'></a>
+<div class='cover aura' style='background-image: url();'>
+<span class='hide thumb-url'>https://4.bp.blogspot.com/-OBxj_E8qVZA/V0-97qZuIcI/AAAAAAAABWA/GloTunFizs4K8WNxVcyBqOgGanVkmX4agCLcB/s72-c/field-691616.jpg</span>
+<div class='floater no-js'>
+<div class='overlay'>
+<h3 class='post-title entry-title' itemprop='name'>
+<a href='https://kronosmond-ozmondstudio.blogspot.co.id/2016/06/overstressed.html'>Overstressed</a>
+</h3>
+</div>
+</div>
+</div>
+</article>
+</div>
+<div class='post-outer'>
+<article class='post hentry' itemscope='itemscope' itemtype='http://schema.org/BlogPosting'>
+<meta content='https://1.bp.blogspot.com/-hNohPFnSBek/V0-0Y32SJJI/AAAAAAAABVk/_wx5teeLlSAwzFHQjhWIfpXBwMucqJdoACLcB/s640/sunset-1211475.png' itemprop='image_url'/>
+<meta content='4235966419721239060' itemprop='blogId'/>
+<meta content='2541503698039836873' itemprop='postId'/>
+<a name='2541503698039836873'></a>
+<div class='cover aura' style='background-image: url();'>
+<span class='hide thumb-url'>https://1.bp.blogspot.com/-hNohPFnSBek/V0-0Y32SJJI/AAAAAAAABVk/_wx5teeLlSAwzFHQjhWIfpXBwMucqJdoACLcB/s72-c/sunset-1211475.png</span>
+<div class='floater no-js'>
+<div class='overlay'>
+<h3 class='post-title entry-title' itemprop='name'>
+<a href='https://kronosmond-ozmondstudio.blogspot.co.id/2016/06/mosaic-world.html'>Mosaic World</a>
+</h3>
+</div>
+</div>
+</div>
+</article>
+</div>
+<div class='post-outer'>
+<article class='post hentry' itemscope='itemscope' itemtype='http://schema.org/BlogPosting'>
+<meta content='https://3.bp.blogspot.com/-h8jSXoEOkcM/V0-zdKDScqI/AAAAAAAABVY/SPBgxOvIAucOThJXgyc3LiMT9FvrwymCACLcB/s640/colors-1264155_1920.jpg' itemprop='image_url'/>
+<meta content='4235966419721239060' itemprop='blogId'/>
+<meta content='2133288968822636367' itemprop='postId'/>
+<a name='2133288968822636367'></a>
+<div class='cover aura' style='background-image: url();'>
+<span class='hide thumb-url'>https://3.bp.blogspot.com/-h8jSXoEOkcM/V0-zdKDScqI/AAAAAAAABVY/SPBgxOvIAucOThJXgyc3LiMT9FvrwymCACLcB/s72-c/colors-1264155_1920.jpg</span>
+<div class='floater no-js'>
+<div class='overlay'>
+<h3 class='post-title entry-title' itemprop='name'>
+<a href='https://kronosmond-ozmondstudio.blogspot.co.id/2016/06/dots-of-colors.html'>Dots of Colors</a>
+</h3>
+</div>
+</div>
+</div>
+</article>
+</div>
+<div class='post-outer'>
+<article class='post hentry' itemscope='itemscope' itemtype='http://schema.org/BlogPosting'>
+<meta content='https://4.bp.blogspot.com/-BOnrpY6_kH0/V06E2ArFLMI/AAAAAAAABU8/bETechZ_ZaY5kRZp5T9bwhrWmS1nO10_ACLcB/s640/girl-925485_1920.jpg' itemprop='image_url'/>
+<meta content='4235966419721239060' itemprop='blogId'/>
+<meta content='4620108415684019309' itemprop='postId'/>
+<a name='4620108415684019309'></a>
+<div class='cover aura' style='background-image: url();'>
+<span class='hide thumb-url'>https://4.bp.blogspot.com/-BOnrpY6_kH0/V06E2ArFLMI/AAAAAAAABU8/bETechZ_ZaY5kRZp5T9bwhrWmS1nO10_ACLcB/s72-c/girl-925485_1920.jpg</span>
+<div class='floater no-js'>
+<div class='overlay'>
+<h3 class='post-title entry-title' itemprop='name'>
+<a href='https://kronosmond-ozmondstudio.blogspot.co.id/2016/05/code-frost.html'>Code: FROST</a>
+</h3>
+</div>
+</div>
+</div>
+</article>
+</div>
+<div class='post-outer'>
+<article class='post hentry' itemscope='itemscope' itemtype='http://schema.org/BlogPosting'>
+<meta content='https://4.bp.blogspot.com/-Kn69BMmcM6Y/V06CX_PC1SI/AAAAAAAABUo/RWdjZOdRH3EKcFz4Wbqdn5f65tq8KcktQCLcB/s640/drawing-1162825_1920.jpg' itemprop='image_url'/>
+<meta content='4235966419721239060' itemprop='blogId'/>
+<meta content='1726063814903235720' itemprop='postId'/>
+<a name='1726063814903235720'></a>
+<div class='cover aura' style='background-image: url();'>
+<span class='hide thumb-url'>https://4.bp.blogspot.com/-Kn69BMmcM6Y/V06CX_PC1SI/AAAAAAAABUo/RWdjZOdRH3EKcFz4Wbqdn5f65tq8KcktQCLcB/s72-c/drawing-1162825_1920.jpg</span>
+<div class='floater no-js'>
+<div class='overlay'>
+<h3 class='post-title entry-title' itemprop='name'>
+<a href='https://kronosmond-ozmondstudio.blogspot.co.id/2016/05/eagle.html'>Eagle</a>
+</h3>
+</div>
+</div>
+</div>
+</article>
+</div>
+<!--Can't find substitution for tag [adEnd]-->
+</div>
+<div class='blog-pager' id='blog-pager'>
+<div class='blog-pager-inner'>
+<span id='blog-pager-older-link'>
+<a class='blog-pager-older-link' href='https://kronosmond-ozmondstudio.blogspot.co.id/search?updated-max=2016-05-31T23:37:00-07:00&amp;max-results=8' id='Blog1_blog-pager-older-link' title='Older Posts'><span class='fa fa-chevron-right'></span></a>
+</span>
+<a class='home-link' href='https://kronosmond-ozmondstudio.blogspot.co.id/'><span class='fa fa-th-large'></span></a>
+</div>
+</div>
+<div class='blog-feeds'>
+<div class='feed-links'>
+Subscribe to:
+<a class='feed-link' href='https://kronosmond-ozmondstudio.blogspot.com/feeds/posts/default' target='_blank' type='application/atom+xml'>Posts (Atom)</a>
+</div>
+</div>
+<script type="text/javascript">window.___gcfg = {'lang': 'en_GB'};</script>
+</div></div>
+<div class='custom-section section' id='custom-section-2' name='Custom Section 2'><div class='widget HTML' data-version='1' id='HTML6'>
+<h2 class='title'>Things I Do</h2>
+<div class='widget-content'>
+<div id='things-i-do'>
+<ul>
+<li>
+<span class='fa fa-code'></span>
+<h3>Coding</h3>
+<p class='things-description'>Sea ex tota ceteros postulant. Nam magna solet no, minim pericula dissentiunt ius et. No meliore constituam sea, tale dico explicari vix ea.</p>
+</li>
+<li>
+<span class='fa fa-paint-brush'></span>
+<h3>Design</h3>
+<p class='things-description'>Ut eam dolorum dolorem, putant voluptatibus eum in, nemore audiam quo ne. Eu inani eirmod reprimique duo.</p>
+</li>
+<li>
+<span class='fa fa-camera'></span>
+<h3>Photography</h3>
+<p class='things-description'>Ad nulla epicurei quo, ei vis porro vulputate incorrupte. Populo definiebas vituperatoribus vis ad, cetero antiopam platonem eu per.</p>
+</li>
+</ul>
+</div>
+</div>
+<div class='clear'></div>
+<span class='widget-item-control'>
+<span class='item-control blog-admin'>
+<a class='quickedit' href='//www.blogger.com/rearrange?blogID=4235966419721239060&widgetType=HTML&widgetId=HTML6&action=editWidget&sectionId=custom-section-2' onclick='return _WidgetManager._PopupConfig(document.getElementById("HTML6"));' target='configHTML6' title='Edit'>
+<img alt='' height='18' src='https://resources.blogblog.com/img/icon18_wrench_allbkg.png' width='18'/>
+</a>
+</span>
+</span>
+<div class='clear'></div>
+</div></div>
+<div class='about-me kr-section section' id='about-me' name='About Me'><div class='widget HTML' data-version='1' id='HTML2'>
+<h2 class='title'>Skills</h2>
+<div class='widget-content'>
+| Photoshop Design = (85%)
+| HTML LOOOL = (80%)
+| CSS Umm I forgot what to say = (90%)
+| JS xd = (85%)
+| Photography what is this? = (70%)
+</div>
+<div class='clear'></div>
+<span class='widget-item-control'>
+<span class='item-control blog-admin'>
+<a class='quickedit' href='//www.blogger.com/rearrange?blogID=4235966419721239060&widgetType=HTML&widgetId=HTML2&action=editWidget&sectionId=about-me' onclick='return _WidgetManager._PopupConfig(document.getElementById("HTML2"));' target='configHTML2' title='Edit'>
+<img alt='' height='18' src='https://resources.blogblog.com/img/icon18_wrench_allbkg.png' width='18'/>
+</a>
+</span>
+</span>
+<div class='clear'></div>
+</div><div class='widget Profile' data-version='1' id='Profile1'>
+<h2>About Me</h2>
+<div class='widget-content'>
+<a href='https://www.blogger.com/profile/02847262236109855290'><img alt='My photo' class='profile-img' height='80' src='//1.bp.blogspot.com/-0d6guCDvjhE/V2JN6jnSBoI/AAAAAAAABaI/Om0AYcLj8HYuLF4kp8gkbtFjHF3-Nj0DQCK4B/s80/PP7.jpg' width='80'/></a>
+<dl class='profile-datablock'>
+<dt class='profile-data'>
+<a class='profile-name-link g-profile' href='https://www.blogger.com/profile/02847262236109855290' rel='author' style='background-image: url(//www.blogger.com/img/logo-16.png);'>
+Osmond
+</a>
+</dt>
+<dd class='profile-textblock'>Heyo! I'm Osmond, an enthusiastic web developer. I love semicolons and resizing browser windows. Currently I'm focusing on Blogger theme development.</dd>
+</dl>
+<a class='profile-link' href='https://www.blogger.com/profile/02847262236109855290' rel='author'>View my complete profile</a>
+<div class='clear'></div>
+<span class='widget-item-control'>
+<span class='item-control blog-admin'>
+<a class='quickedit' href='//www.blogger.com/rearrange?blogID=4235966419721239060&widgetType=Profile&widgetId=Profile1&action=editWidget&sectionId=about-me' onclick='return _WidgetManager._PopupConfig(document.getElementById("Profile1"));' target='configProfile1' title='Edit'>
+<img alt='' height='18' src='https://resources.blogblog.com/img/icon18_wrench_allbkg.png' width='18'/>
+</a>
+</span>
+</span>
+<div class='clear'></div>
+</div>
+</div></div>
+<div class='custom-section section' id='custom-section-3' name='Custom Section 3'><div class='widget HTML' data-version='1' id='HTML5'>
+<h2 class='title'>Resume</h2>
+<div class='widget-content'>
+<div id='resume'>
+|1 Work [2015-Present] = Envato Marketplace - Exclusive Author
+|2 Study [2013-2015] = CodeCademy - jQuery, PHP & XML
+|3 Study [2008-2013] = CodeCademy - Javascript, HTML & CSS
+|4 Study [2000-2008] = Homeschooling
+|5 Born [1988] = Born in - August 08, 1988
+
+|1 - Lorem ipsum dolor sit amet, pro te possim ponderum incorrupte, nemore patrioque incorrupte sed cu, facer constituto definitionem sed ut. Vis facilis deleniti forensibus et, nam cu iusto cetero legimus. Suas adipisci eu quo, iisque persequeris eu vim.
+|2 - Nonumy aperiam platonem te quo, debitis lucilius voluptatibus eu sed. Suscipit lobortis ocurreret an vis. Impedit inimicus incorrupte vel ut, qui omnes admodum suscipit ad. Qui noster pericula temporibus ad, vero conceptam qui in. Vix in elitr eripuit.
+|3 - Mea torquatos necessitatibus ea. Indoctum molestiae sit ad, corpora consequat in duo, est duis recteque mediocritatem eu. Qualisque salutatus quo ne, vix vitae maiestatis cu, id altera saperet deserunt sit. Possim utamur quaestio eos an, eu putent.
+|4 - Ius eu labore virtute, sale euismod platonem eam te, eu affert everti cum. Ea sed justo choro regione. Cibo aliquam duo ne, essent fastidii repudiare ea per. Etiam ignota ea eos, has omnes corpora detracto te.
+|5 - Et posse iudico dissentiunt vel.
+</div>
+</div>
+<div class='clear'></div>
+<span class='widget-item-control'>
+<span class='item-control blog-admin'>
+<a class='quickedit' href='//www.blogger.com/rearrange?blogID=4235966419721239060&widgetType=HTML&widgetId=HTML5&action=editWidget&sectionId=custom-section-3' onclick='return _WidgetManager._PopupConfig(document.getElementById("HTML5"));' target='configHTML5' title='Edit'>
+<img alt='' height='18' src='https://resources.blogblog.com/img/icon18_wrench_allbkg.png' width='18'/>
+</a>
+</span>
+</span>
+<div class='clear'></div>
+</div></div>
+<div class='contact kr-section section' id='contact' name='Contact'><div class='widget ContactForm' data-version='1' id='ContactForm1'>
+<h2 class='title'>Contact Me</h2>
+<div class='contact-form-widget'>
+<div class='form'>
+<form name='contact-form'>
+<p></p>
+Name
+<br/>
+<input class='contact-form-name' id='ContactForm1_contact-form-name' name='name' size='30' type='text' value=''/>
+<p></p>
+Email
+<span style='font-weight: bolder;'>*</span>
+<br/>
+<input class='contact-form-email' id='ContactForm1_contact-form-email' name='email' size='30' type='text' value=''/>
+<p></p>
+Message
+<span style='font-weight: bolder;'>*</span>
+<br/>
+<textarea class='contact-form-email-message' cols='25' id='ContactForm1_contact-form-email-message' name='email-message' rows='5'></textarea>
+<p></p>
+<input class='contact-form-button contact-form-button-submit' id='ContactForm1_contact-form-submit' type='button' value='Send'/>
+<p></p>
+<div style='text-align: center; max-width: 222px; width: 100%'>
+<p class='contact-form-error-message' id='ContactForm1_contact-form-error-message'></p>
+<p class='contact-form-success-message' id='ContactForm1_contact-form-success-message'></p>
+</div>
+</form>
+</div>
+</div>
+<div class='clear'></div>
+<span class='widget-item-control'>
+<span class='item-control blog-admin'>
+<a class='quickedit' href='//www.blogger.com/rearrange?blogID=4235966419721239060&widgetType=ContactForm&widgetId=ContactForm1&action=editWidget&sectionId=contact' onclick='return _WidgetManager._PopupConfig(document.getElementById("ContactForm1"));' target='configContactForm1' title='Edit'>
+<img alt='' height='18' src='https://resources.blogblog.com/img/icon18_wrench_allbkg.png' width='18'/>
+</a>
+</span>
+</span>
+<div class='clear'></div>
+</div><div class='widget Text' data-version='1' id='Text2'>
+<h2 class='title'>Infos</h2>
+<div class='widget-content'>
+<b>Full Name:</b> Muhammad Osmond<br /><br /><b>Job: </b>Web Developer &amp; Designer<br /><br /><b>Address:</b> Number 8, 88 Void Street, Voidland, VD<br /><br /><b>Phone:</b> +(62) 88 0588 1517<br /><br /><b>Email:</b> osmond@voidomain.com
+</div>
+<div class='clear'></div>
+<span class='widget-item-control'>
+<span class='item-control blog-admin'>
+<a class='quickedit' href='//www.blogger.com/rearrange?blogID=4235966419721239060&widgetType=Text&widgetId=Text2&action=editWidget&sectionId=contact' onclick='return _WidgetManager._PopupConfig(document.getElementById("Text2"));' target='configText2' title='Edit'>
+<img alt='' height='18' src='https://resources.blogblog.com/img/icon18_wrench_allbkg.png' width='18'/>
+</a>
+</span>
+</span>
+<div class='clear'></div>
+</div></div>
+<div class='custom-section section' id='custom-section-4' name='Custom Section 4'><div class='widget HTML' data-version='1' id='HTML4'>
+<h2 class='title'>Map</h2>
+<div class='widget-content'>
+<script src='https://maps.googleapis.com/maps/api/js?v=3.exp'></script><div style='overflow:hidden;height:500px;width:700px;'><div id='gmap_canvas' style='height:500px;width:700px;'></div><div><small><a href="http://embedgooglemaps.com">									embed google maps							</a></small></div><div><small><a href="https://privacypolicygenerator.info">privacy policy generator</a></small></div><style>#gmap_canvas img{max-width:none!important;background:none!important}</style></div><script type='text/javascript'>function init_map(){var myOptions = {zoom:10,center:new google.maps.LatLng(51.5073509,-0.12775829999998223),mapTypeId: google.maps.MapTypeId.ROADMAP};map = new google.maps.Map(document.getElementById('gmap_canvas'), myOptions);marker = new google.maps.Marker({map: map,position: new google.maps.LatLng(51.5073509,-0.12775829999998223)});infowindow = new google.maps.InfoWindow({content:'<strong>Kronosmond</strong><br>London, United Kingdom<br>'});google.maps.event.addListener(marker, 'click', function(){infowindow.open(map,marker);});infowindow.open(map,marker);}google.maps.event.addDomListener(window, 'load', init_map);</script>
+</div>
+<div class='clear'></div>
+<span class='widget-item-control'>
+<span class='item-control blog-admin'>
+<a class='quickedit' href='//www.blogger.com/rearrange?blogID=4235966419721239060&widgetType=HTML&widgetId=HTML4&action=editWidget&sectionId=custom-section-4' onclick='return _WidgetManager._PopupConfig(document.getElementById("HTML4"));' target='configHTML4' title='Edit'>
+<img alt='' height='18' src='https://resources.blogblog.com/img/icon18_wrench_allbkg.png' width='18'/>
+</a>
+</span>
+</span>
+<div class='clear'></div>
+</div></div>
+</div>
+<footer class='footer' id='footer-wrapper'>
+<div class='footer section' id='footer' name='Footer'><div class='widget HTML' data-version='1' id='HTML3'>
+<h2 class='title'>Socials</h2>
+<div class='widget-content'>
+<!--<div class='socials'>
+<a href='#'><span class='fa fa-facebook fa-2x'></span></a>
+<a href='#'><span class='fa fa-google-plus fa-2x'></span></a>
+<a href='#'><span class='fa fa-twitter fa-2x'></span></a>
+<a href='#'><span class='fa fa-github fa-2x'></span></a>
+</div>-->
+</div>
+<div class='clear'></div>
+<span class='widget-item-control'>
+<span class='item-control blog-admin'>
+<a class='quickedit' href='//www.blogger.com/rearrange?blogID=4235966419721239060&widgetType=HTML&widgetId=HTML3&action=editWidget&sectionId=footer' onclick='return _WidgetManager._PopupConfig(document.getElementById("HTML3"));' target='configHTML3' title='Edit'>
+<img alt='' height='18' src='https://resources.blogblog.com/img/icon18_wrench_allbkg.png' width='18'/>
+</a>
+</span>
+</span>
+<div class='clear'></div>
+</div><div class='widget Attribution' data-version='1' id='Attribution1'>
+<div class='widget-content' style='text-align: center;'>
+&#169; Kronosmond 2016. Powered by <a href='https://www.blogger.com' target='_blank'>Blogger</a>.
+</div>
+<div class='clear'></div>
+<span class='widget-item-control'>
+<span class='item-control blog-admin'>
+<a class='quickedit' href='//www.blogger.com/rearrange?blogID=4235966419721239060&widgetType=Attribution&widgetId=Attribution1&action=editWidget&sectionId=footer' onclick='return _WidgetManager._PopupConfig(document.getElementById("Attribution1"));' target='configAttribution1' title='Edit'>
+<img alt='' height='18' src='https://resources.blogblog.com/img/icon18_wrench_allbkg.png' width='18'/>
+</a>
+</span>
+</span>
+<div class='clear'></div>
+</div></div>
+</footer>
+</div>
+<button class='c-hamburger c-hamburger--htx'>
+<span>toggle menu</span>
+</button>
+<span class='blog-url hide'>https://kronosmond-ozmondstudio.blogspot.co.id/</span>
+<script src='//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js' type='text/javascript'></script>
+<script src='//cdnjs.cloudflare.com/ajax/libs/smoothState.js/0.7.2/jquery.smoothState.min.js' type='text/javascript'></script>
+<script src='//cdnjs.cloudflare.com/ajax/libs/velocity/1.2.3/velocity.min.js' type='text/javascript'></script>
+<script type='text/javascript'>
+	//<![CDATA[
+	function loadStyleSheet(a){document.createStyleSheet?document.createStyleSheet(a):$("head").prepend($("<link rel='stylesheet' href='"+a+"' type='text/css' media='screen'/>"));}loadStyleSheet("//fonts.googleapis.com/css?family=Open+Sans:400,300,600,700|Roboto+Slab"),loadStyleSheet("//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"),loadStyleSheet("https://www.blogger.com/static/v1/widgets/4205868711-css_bundle_v2.css");
+	var content = $('html').html(), url = content.match(/\/\/fonts\.googleapis\.com\/css\?kit\=([a-zA-Z0-9_-])*/ig);
+    if (url) loadStyleSheet(url);
+	//]]>
+  </script>
+<script type='text/javascript'>
+	//<![CDATA[
+    $(function(){
+      $('.icon').velocity({rotateZ:'360deg'},{duration:2000,easing:'linear',loop:true});
+	  $(window).load(function(){
+        $("#preloader").velocity('fadeOut',{duration:600});
+	  });
+    });
+	//]]>
+  </script>
+<script type='text/javascript'>
+	//<![CDATA[
+	$(document).ready(function(){
+	  /* Header */
+	  var blogHeader = $('#Header1'), blogIcon = blogHeader.find('#header-inner');
+      if(/http|https/.test(blogIcon.css('background-image'))){
+		var iconUrl = blogIcon.css('background-image').replace(/url\(|\)|\"|\'/gi,'');
+        blogIcon.prepend($('<img/>',{'src':iconUrl,'alt':blogHeader.find('h1.title').text()}));
+        blogIcon.css('background-image','none');
+	  }
+      var setHeader = function(){
+		var header = $("#header-wrapper"), headerShadow = $("#header-shadow"), content = $("#main-wrapper"), height = $(window).height();
+      	header.css("height",height);       
+	  };
+	  setHeader();
+	  /* Featured */
+	  var featuredPostImg = $('.FeaturedPost').find('img');
+      if(featuredPostImg.length){
+		featuredPostImg.attr('src',featuredPostImg.attr('src').replace('s640','s'+$(window).width()));
+	  }
+	  /* Skills */
+      function createSkills(){
+	    var aboutMe = $('#about-me'), skills = aboutMe.find('#HTML2'), skillsList = skills.find('.widget-content').text().split('|'), frag = $(document.createDocumentFragment());
+        for(var i = 1; i < skillsList.length; i++){
+		  var li = $('<li/>');
+		  var skillName = skillsList[i].split('=')[0];
+		  var skillPercentage = skillsList[i].split('=')[1].trim().replace(/\(|\)/gi,'');
+  		  li.append('<span class="skill-name">'+skillName.trim()+'</span><div class="bar"><div class="fill"></div><span class="strength">'+skillPercentage+'</span></div>');
+		  frag.append(li);
+	    }
+        var list = $('<ul/>',{'class':'skills-list'}).append(frag);
+		skills.find('.widget-content').empty().append(list);
+	  }
+	  createSkills();
+	  /* Resume */
+      function createResumeTimeline(){
+        var parent = $('#resume'), content = parent.text().trim().split(/\n{2}/), resumeTitle = content[0], resumeDescription = content[1], titleList = resumeTitle.split(/\|\d{1}/g), descriptionList = (resumeDescription != null) ? resumeDescription.split(/\|\d{1}\s\-/g) : '', frag = $(document.createDocumentFragment());
+        for(var i = 1; i < titleList.length; i++){
+		  var li = $('<li/>'), titleAndYear = titleList[i].split('=')[0], title = titleAndYear.split(' ')[1], year = titleAndYear.split(' ')[2].replace(/\[|\]/g,''), workplaceAndPosition = titleList[i].split('=')[1].split('-'), workplace = workplaceAndPosition[0], position = (workplaceAndPosition[1] != null) ? workplaceAndPosition[1] : '', description = (descriptionList[i] != '') ? descriptionList[i].trim() : '';
+		  li.append('<div class="resume-wrapper"><h3><span class="timeline-title">'+title.trim()+'</span><span class="year">'+year.trim()+'</span></h3><p class="workplace-position"><span class="workplace">'+workplace.trim()+'</span><span class="position">'+position+'</span></p><p class="description">'+description+'</p></div>');
+		  frag.append(li);
+		}
+        var list = $('<ul/>',{'class':'resume-list'}).append(frag);
+		parent.empty().append(list);
+	  }
+	  createResumeTimeline();
+	  /* Profile */
+	  var profileImg = $('#Profile1').find('img');
+	  profileImg.attr('src', profileImg.attr('src').replace('s80','s'+profileImg.width()));
+	  /* Contact */
+      function createContactForm(){
+		var contact = $('#contact'), contactForm = contact.find('#ContactForm1'), form = contactForm.find('form'), inputFieldList = form.text().replace(/\*/gi, '').replace(/(\r\n|\r|\n){2,}/g, ' ').trim().split(' ');
+        contactForm.find('.contact-form-name').attr('placeholder',inputFieldList[0]+':');
+        contactForm.find('.contact-form-email').attr('placeholder',inputFieldList[1]+':');
+        contactForm.find('.contact-form-email-message').attr('placeholder',inputFieldList[2]+':');
+	  }
+	  createContactForm();
+	  /* Menu */
+      var sections = $('.kr-section'), contents = [];
+      sections.each(function(){
+		var el = $(this)
+        if(el.find('.widget').length){
+		  var name = el.attr('name'), id = el.attr('id');
+          contents.push('<li><a href="#'+id+'">'+name+'</a></li>');		
+		}
+      });
+      if($('#PageList1 ul').length){
+        $('#PageList1 ul').html(contents.join('')+'<li class="separator"></li>'+$('#PageList1 ul').html());
+      }else{
+		var ul = $('<ul/>').html(contents.join('')+'<li class="separator"></li>');
+        $('#PageList1').find('.widget-content').prepend(ul);	
+	  }
+      $('#PageList1 ul').on('click', 'a', function(e){
+        var $el = $(this), url = $el.attr('href');
+        if(/^#/gi.test(url)){
+          e.preventDefault();
+          var el = $(this), href = el.attr('href');
+          $(href).velocity('scroll',{
+            duration: 1000,
+            easing: [ 0.42, 0, 0.58, 1 ]
+          });
+        }
+      });
+      $('#view-more').click(function(e){
+		var el = $(this), main = $('#main-wrapper');
+		e.preventDefault();
+        main.velocity('scroll',{
+          duration: 1000,
+          easing: [ 0.42, 0, 0.58, 1 ]
+		});
+	  });
+	  $('.c-hamburger').click(function(e){
+		var el = $(this), menu = $('#PageList1');
+		e.preventDefault();
+        if(!el.hasClass('is-active')){
+		  el.addClass('is-active');
+          menu.velocity('fadeIn',{duration:500});
+        }else{
+		  el.removeClass('is-active');
+		  menu.velocity('fadeOut',{duration:500});
+		}
+	  });
+	  var iframes = $('.post-body').find('iframe');
+	  if(iframes.length>0){
+        iframes.each(function(){
+           var youtube = new RegExp('youtube'), vimeo = new RegExp('vimeo'), dailymotion = new RegExp('dailymotion'), metacafe = new RegExp('metacafe');
+          if(youtube.test($(this).attr('src')) || vimeo.test($(this).attr('src')) || dailymotion.test($(this).attr('src')) || metacafe.test($(this).attr('src'))){
+            $(this).wrap('<div class="video-container">');
+          }
+          youtube = null;
+          vimeo = null;
+		  dailymotion = null;
+	  	  metacafe = null;
+        });
+      }
+      $(window).resize(function(){
+        var timeout = setTimeout(function(){
+	      setHeader();
+		},100);
+	  });
+	  var tolerateHeight = $(window).height() / 2;
+      var changeTitleOnScroll = function(th){
+        var currentPosition = $(window).scrollTop();
+        $(".kr-section").each(function(){
+          var el = $(this), offsetTop = el.offset().top, offsetBottom = el.height() + el.offset().top
+          if(currentPosition <= (offsetBottom - th) && currentPosition >= (offsetTop - th)){
+            $('#PageList1 li a').removeClass('current');
+            $('#PageList1 li a[href=#'+el.attr('id')+']').addClass("current");
+          }
+        });
+      };
+      $(window).scroll(function(){
+        var timeout = setTimeout(function(){
+          if($(window).scrollTop() + ($(window).height()/2) >= $('#about-me').offset().top){
+            $('#about-me').find('.fill').each(function(){
+			  var el = $(this);	
+			  el.css({
+                'width':el.parent().find('.strength').text()
+			  });
+			});
+		  }
+          changeTitleOnScroll(tolerateHeight);
+		},40);
+	  });
+	  $(window).trigger('scroll');
+	});	  
+	$(function(){
+	  'use strict';
+  	  var $page = $('#Header1, #PageList1, #main'),
+      options = {
+        hrefRegex: new RegExp('\\w+'+$('.blog-url').text()+'/gi'),
+        prefetch: true,
+        cacheLength: 0,
+        blacklist: '.ContactForm form',
+        onStart: {
+          duration: 500,
+          render: function ($container) {
+        	$("#preloader").velocity('fadeIn',{duration:600});
+		    $container.addClass('is-exiting');
+          }
+        },
+        onReady: {
+          duration: 0,
+          render: function ($container, $newContent) {
+        	$("#preloader").velocity('fadeOut',{duration:600});
+            $container.removeClass('is-exiting');
+        	$container.html($newContent);
+          }
+        }
+      },
+      smoothState = $page.smoothState(options).data('smoothState');
+	});
+	//]]>
+  </script>
+<script type='text/javascript'>
+	  //<![CDATA[
+      $(function(){
+		var isTouchDevice = (('ontouchstart' in window) || (navigator.msMaxTouchPoints > 0));
+		$('.floater').removeClass('no-js');
+		$('.cover').each(function(){
+          var e = $(this), link = new RegExp(/https|http/), urlRegex = new RegExp(/url\("|"\)|url\('|'\)|url\(|\)/gi), yt = new RegExp ('youtube'), thumbUrl = e.find('.thumb-url').text();
+          if(link.test(thumbUrl)){
+            if(yt.test(thumbUrl)){
+              e.css({
+                'background-image':'url("'+thumbUrl.replace('default.jpg','sddefault.jpg')+'")'
+              });
+            }else{
+              e.css({
+                'background-image':'url("'+thumbUrl.replace('s72-c','s'+e.width()+'-c')+'")'
+              }).append($('<div class="blur"/>').css({
+                'background-image':'url("'+thumbUrl.replace('s72-c','s'+e.width()+'-c-fcrop64=1,004b0000ffb3ffff:Soften=1,20,0')+'")'
+              }));
+            }
+          }
+        });
+        if(!isTouchDevice){
+          $('.cover').hover(function(){
+            var el = $(this);
+            el.find('.floater, .blur').velocity('stop').velocity('fadeIn',{duration:500});		
+          },function(){
+            var el = $(this);
+            el.find('.floater, .blur').velocity('stop').velocity('fadeOut',{duration:500});	
+          });
+        }else{
+		  $('.floater, .blur').addClass('show-yeah');
+		}
+	  });
+	  //]]>
+	</script>
+<script type='text/javascript'>
+    window.setTimeout(function() {
+      document.body.className = document.body.className.replace('loading', '');
+    },10);
+  </script>
+<script src='https://apis.google.com/js/plusone.js' type='text/javascript'></script>
+
+<script type="text/javascript" src="https://www.blogger.com/static/v1/widgets/2227587253-widgets.js"></script>
+<script type='text/javascript'>
+window['__wavt'] = 'AOuZoY7xtG3txJzdzupiQVoFWk9EINN4kA:1520363785482';_WidgetManager._Init('//www.blogger.com/rearrange?blogID\x3d4235966419721239060','//kronosmond-ozmondstudio.blogspot.co.id/','4235966419721239060');
+_WidgetManager._SetDataContext([{'name': 'blog', 'data': {'blogId': '4235966419721239060', 'title': 'Kronos', 'url': 'https://kronosmond-ozmondstudio.blogspot.co.id/', 'canonicalUrl': 'http://kronosmond-ozmondstudio.blogspot.com/', 'homepageUrl': 'https://kronosmond-ozmondstudio.blogspot.co.id/', 'searchUrl': 'https://kronosmond-ozmondstudio.blogspot.co.id/search', 'canonicalHomepageUrl': 'http://kronosmond-ozmondstudio.blogspot.com/', 'blogspotFaviconUrl': 'https://kronosmond-ozmondstudio.blogspot.co.id/favicon.ico', 'bloggerUrl': 'https://www.blogger.com', 'hasCustomDomain': false, 'httpsEnabled': true, 'enabledCommentProfileImages': true, 'gPlusViewType': 'FILTERED_POSTMOD', 'adultContent': false, 'analyticsAccountNumber': '', 'encoding': 'UTF-8', 'locale': 'en-GB', 'localeUnderscoreDelimited': 'en_gb', 'languageDirection': 'ltr', 'isPrivate': false, 'isMobile': false, 'isMobileRequest': false, 'mobileClass': '', 'isPrivateBlog': false, 'feedLinks': '\x3clink rel\x3d\x22alternate\x22 type\x3d\x22application/atom+xml\x22 title\x3d\x22Kronos - Atom\x22 href\x3d\x22https://kronosmond-ozmondstudio.blogspot.com/feeds/posts/default\x22 /\x3e\n\x3clink rel\x3d\x22alternate\x22 type\x3d\x22application/rss+xml\x22 title\x3d\x22Kronos - RSS\x22 href\x3d\x22https://kronosmond-ozmondstudio.blogspot.com/feeds/posts/default?alt\x3drss\x22 /\x3e\n\x3clink rel\x3d\x22service.post\x22 type\x3d\x22application/atom+xml\x22 title\x3d\x22Kronos - Atom\x22 href\x3d\x22https://www.blogger.com/feeds/4235966419721239060/posts/default\x22 /\x3e\n', 'meTag': '\x3clink rel\x3d\x22me\x22 href\x3d\x22https://www.blogger.com/profile/02847262236109855290\x22 /\x3e\n', 'openIdOpTag': '\x3clink rel\x3d\x22openid.server\x22 href\x3d\x22https://www.blogger.com/openid-server.g\x22 /\x3e\n\x3clink rel\x3d\x22openid.delegate\x22 href\x3d\x22https://kronosmond-ozmondstudio.blogspot.com/\x22 /\x3e\n', 'adsenseHostId': 'ca-host-pub-1556223355139109', 'adsenseHasAds': false, 'ieCssRetrofitLinks': '\x3c!--[if IE]\x3e\x3cscript type\x3d\x22text/javascript\x22 src\x3d\x22https://www.blogger.com/static/v1/jsbin/3061962209-ieretrofit.js\x22\x3e\x3c/script\x3e\n\x3c![endif]--\x3e', 'view': '', 'dynamicViewsCommentsSrc': '//www.blogblog.com/dynamicviews/4224c15c4e7c9321/js/comments.js', 'dynamicViewsScriptSrc': '//www.blogblog.com/dynamicviews/20de31def7427a0d', 'plusOneApiSrc': 'https://apis.google.com/js/plusone.js', 'sharing': {'platforms': [{'name': 'Get link', 'key': 'link', 'shareMessage': 'Get link', 'target': ''}, {'name': 'Facebook', 'key': 'facebook', 'shareMessage': 'Share to Facebook', 'target': 'facebook'}, {'name': 'BlogThis!', 'key': 'blogThis', 'shareMessage': 'BlogThis!', 'target': 'blog'}, {'name': 'Twitter', 'key': 'twitter', 'shareMessage': 'Share to Twitter', 'target': 'twitter'}, {'name': 'Pinterest', 'key': 'pinterest', 'shareMessage': 'Share to Pinterest', 'target': 'pinterest'}, {'name': 'Google+', 'key': 'googlePlus', 'shareMessage': 'Share to Google+', 'target': 'googleplus'}, {'name': 'Email', 'key': 'email', 'shareMessage': 'Email', 'target': 'email'}], 'googlePlusShareButtonWidth': 300, 'googlePlusBootstrap': '\x3cscript type\x3d\x22text/javascript\x22\x3ewindow.___gcfg \x3d {\x27lang\x27: \x27en_GB\x27};\x3c/script\x3e'}, 'hasCustomJumpLinkMessage': false, 'jumpLinkMessage': 'Read more', 'pageType': 'index', 'pageName': '', 'pageTitle': 'Kronos', 'metaDescription': 'The ultimate portofolio/resume Blogger theme.'}}, {'name': 'features', 'data': {'lazy_images': 'false', 'unsupported_browser_message': 'false', 'sharing_get_link_dialog': 'true', 'sharing_native': 'false'}}, {'name': 'messages', 'data': {'edit': 'Edit', 'linkCopiedToClipboard': 'Link copied to clipboard', 'ok': 'Ok', 'postLink': 'Post link'}}, {'name': 'template', 'data': {'name': 'custom', 'localizedName': 'Custom', 'isResponsive': false, 'isAlternateRendering': false, 'isCustom': true}}, {'name': 'view', 'data': {'classic': {'name': 'classic', 'url': '?view\x3dclassic'}, 'flipcard': {'name': 'flipcard', 'url': '?view\x3dflipcard'}, 'magazine': {'name': 'magazine', 'url': '?view\x3dmagazine'}, 'mosaic': {'name': 'mosaic', 'url': '?view\x3dmosaic'}, 'sidebar': {'name': 'sidebar', 'url': '?view\x3dsidebar'}, 'snapshot': {'name': 'snapshot', 'url': '?view\x3dsnapshot'}, 'timeslide': {'name': 'timeslide', 'url': '?view\x3dtimeslide'}, 'isMobile': false, 'title': 'Kronos', 'description': 'The ultimate portofolio/resume Blogger theme.', 'url': 'https://kronosmond-ozmondstudio.blogspot.co.id/', 'type': 'feed', 'isSingleItem': false, 'isMultipleItems': true, 'isError': false, 'isPage': false, 'isPost': false, 'isHomepage': true, 'isArchive': false, 'isLabelSearch': false}}]);
+_WidgetManager._RegisterWidget('_HeaderView', new _WidgetInfo('Header1', 'header', null, document.getElementById('Header1'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_HTMLView', new _WidgetInfo('HTML1', 'header', null, document.getElementById('HTML1'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_PageListView', new _WidgetInfo('PageList1', 'header', null, document.getElementById('PageList1'), {'title': 'Menu', 'links': [{'isCurrentPage': false, 'href': 'https://kronosmond-ozmondstudio.blogspot.co.id/p/more-about-kronos.html', 'id': '3178408070501553119', 'title': 'More About Kronos'}, {'isCurrentPage': false, 'href': 'http://kronosmond-ozmondstudio.blogspot.com/#', 'title': 'Purchase'}, {'isCurrentPage': false, 'href': 'http://kronosmond-ozmondstudio.blogspot.com/404', 'title': '404 Example'}], 'mobile': false}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_TextView', new _WidgetInfo('Text3', 'custom-section-1', null, document.getElementById('Text3'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_BlogView', new _WidgetInfo('Blog1', 'main', null, document.getElementById('Blog1'), {'cmtInteractionsEnabled': false, 'useNgc': false, 'lightboxEnabled': true, 'lightboxModuleUrl': 'https://www.blogger.com/static/v1/jsbin/94108643-lbx__en_gb.js', 'lightboxCssUrl': 'https://www.blogger.com/static/v1/v-css/368954415-lightbox_bundle.css'}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_HTMLView', new _WidgetInfo('HTML6', 'custom-section-2', null, document.getElementById('HTML6'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_HTMLView', new _WidgetInfo('HTML2', 'about-me', null, document.getElementById('HTML2'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_ProfileView', new _WidgetInfo('Profile1', 'about-me', null, document.getElementById('Profile1'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_HTMLView', new _WidgetInfo('HTML5', 'custom-section-3', null, document.getElementById('HTML5'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_ContactFormView', new _WidgetInfo('ContactForm1', 'contact', null, document.getElementById('ContactForm1'), {'contactFormMessageSendingMsg': 'Sending...', 'contactFormMessageSentMsg': 'Your message has been sent.', 'contactFormMessageNotSentMsg': 'Message could not be sent. Please try again later.', 'contactFormInvalidEmailMsg': 'A valid email address is required.', 'contactFormEmptyMessageMsg': 'Message field cannot be empty.', 'title': 'Contact Me', 'blogId': '4235966419721239060', 'contactFormNameMsg': 'Name', 'contactFormEmailMsg': 'Email', 'contactFormMessageMsg': 'Message', 'contactFormSendMsg': 'Send', 'submitUrl': 'https://www.blogger.com/contact-form.do'}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_TextView', new _WidgetInfo('Text2', 'contact', null, document.getElementById('Text2'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_HTMLView', new _WidgetInfo('HTML4', 'custom-section-4', null, document.getElementById('HTML4'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_HTMLView', new _WidgetInfo('HTML3', 'footer', null, document.getElementById('HTML3'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_AttributionView', new _WidgetInfo('Attribution1', 'footer', null, document.getElementById('Attribution1'), {}, 'displayModeFull'));
+</script>
+</body>
+</html>
